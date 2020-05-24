@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-KhoaLuanCoreApp-BDA138AB-D17B-4649-852F-ADB4257043FC</UserSecretsId>
+    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KhoaLuanCoreApp.Application\KhoaLuanCoreApp.Application.csproj" />
+    <ProjectReference Include="..\KhoaLuanCoreApp.Data.EF\KhoaLuanCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\KhoaLuanCoreApp.Data\KhoaLuanCoreApp.Data.csproj" />
+    <ProjectReference Include="..\KhoaLuanCoreApp.Infrastructure\KhoaLuanCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\KhoaLuanCoreApp.Ultilities\KhoaLuanCoreApp.Ultilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\gentelella\build\" />
+  </ItemGroup>
+
+</Project>

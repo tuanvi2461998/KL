@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KhoaLuanCoreApp.Data.EF\KhoaLuanCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\KhoaLuanCoreApp.Data\KhoaLuanCoreApp.Data.csproj" />
+    <ProjectReference Include="..\KhoaLuanCoreApp.Ultilities\KhoaLuanCoreApp.Ultilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+  </ItemGroup>
+
+</Project>

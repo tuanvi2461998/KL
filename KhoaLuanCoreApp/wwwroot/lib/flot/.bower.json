@@ -1,0 +1,14 @@
+{
+  "name": "flot",
+  "homepage": "https://github.com/flot/flot",
+  "version": "4.2.0",
+  "_release": "4.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v4.2.0",
+    "commit": "ed9cb016e428109bf5314f85c3c401577d4f24fa"
+  },
+  "_source": "https://github.com/flot/flot.git",
+  "_target": "4.2.0",
+  "_originalSource": "flot"
+}
