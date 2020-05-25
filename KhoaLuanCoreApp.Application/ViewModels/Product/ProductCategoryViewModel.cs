@@ -20,9 +20,7 @@ namespace KhoaLuanCoreApp.Application.ViewModels.Product
 
         public bool? HomeFlag { get; set; }
 
-        public string SeoPageTitle { set; get; }
         public string SeoAlias { set; get; }
-        public string SeoKeywords { set; get; }
         public string SeoDescription { set; get; }
         public Status Status { set; get; }
         public int SortOrder { set; get; }

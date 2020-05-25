@@ -1,7 +1,7 @@
 ﻿var khoaluan = {
     configs: {
         pageSize: 10,
-        pageIndex:1
+        pageIndex: 1
     },
     notify: function (message, type) {
         $.notify(message, {
@@ -38,7 +38,7 @@
     },
     confirm: function (message, okCallback) {
         bootbox.confirm({
-            message:message,
+            message: message,
             buttons: {
                 confirm: {
                     label: 'Đồng ý',
@@ -56,7 +56,7 @@
             }
         });
     },
-    dateFormat: function (datetime) {
+    dateFormatJson: function (datetime) {
         if (datetime == null || datetime == '')
             return '';
         var newdate = new Date(parseInt(datetime.substr(6)));
@@ -134,9 +134,10 @@
                 roots.push(node);
             }
         }
-        return roots; 
+        return roots;
     }
 }
+
 $(document).ajaxSend(function (e, xhr, options) {
     if (options.type.toUpperCase() == "POST" || options.type.toUpperCase() == "PUT") {
         var token = $('form').find("input[name='__RequestVerificationToken']").val();

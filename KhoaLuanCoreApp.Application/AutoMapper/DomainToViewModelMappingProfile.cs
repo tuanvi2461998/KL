@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using KhoaLuanCoreApp.Application.ViewModels.Product;
+using KhoaLuanCoreApp.Application.ViewModels.System;
 using KhoaLuanCoreApp.Data.Entities;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,9 @@ namespace KhoaLuanCoreApp.Application.AutoMapper
     {
         public DomainToViewModelMappingProfile()
         {
-            CreateMap<ProductCategoryViewModel, ProductCategory>()
-                .ConstructUsing(c => new ProductCategory(c.Name, c.Description, c.ParentId, c.HomeOrder, c.Image, c.HomeFlag,
-                c.SortOrder, c.Status, c.SeoAlias, c.SeoDescription));
+            CreateMap<ProductCategory, ProductCategoryViewModel>();
+            CreateMap<Product, ProductViewModel>();
+            CreateMap<Function, FunctionViewModel>();
         }
     }
 }
