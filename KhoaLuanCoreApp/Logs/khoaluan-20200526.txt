@@ -1883,3 +1883,1084 @@ ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
 2020-05-26T09:34:11.9385924+07:00 0HM013JUL701I:00000005 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.Product.ProductCategoryViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
 2020-05-26T09:34:11.9495999+07:00 0HM013JUL701I:00000005 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.ProductCategoryController.GetAll (KhoaLuanCoreApp)" in 53.8595ms (afa2e885)
 2020-05-26T09:34:11.9969122+07:00 0HM013JUL701I:00000005 [INF] Request finished in 131.8171ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:31:59.2632129+07:00 0HM015MTALKTI:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/   (ca22a1cb)
+2020-05-26T11:31:59.2632129+07:00 0HM015MTALKTH:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:63982/  0 (ca22a1cb)
+2020-05-26T11:31:59.7756595+07:00 0HM015MTALKTH:00000001 [INF] Request finished in 514.4469ms 200  (791a596a)
+2020-05-26T11:32:00.5316387+07:00 0HM015MTALKTI:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "KhoaLuanCoreApp.Controllers.HomeController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:32:00.5854604+07:00 0HM015MTALKTI:00000001 [INF] Authorization failed. (b15dd539)
+2020-05-26T11:32:00.5920723+07:00 0HM015MTALKTI:00000001 [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2020-05-26T11:32:00.6566779+07:00 0HM015MTALKTI:00000001 [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2020-05-26T11:32:00.6906431+07:00 0HM015MTALKTI:00000001 [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2020-05-26T11:32:00.7163116+07:00 0HM015MTALKTI:00000001 [INF] Executed action "KhoaLuanCoreApp.Controllers.HomeController.Index (KhoaLuanCoreApp)" in 158.9121ms (afa2e885)
+2020-05-26T11:32:00.8783467+07:00 0HM015MTALKTI:00000001 [INF] Request finished in 1513.4556ms 302  (791a596a)
+2020-05-26T11:32:00.8856182+07:00 0HM015MTALKTH:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Account/Login?ReturnUrl=%2F   (ca22a1cb)
+2020-05-26T11:32:01.0755656+07:00 0HM015MTALKTH:00000002 [INF] Request finished in 9.7499ms 404  (791a596a)
+2020-05-26T11:32:08.9236516+07:00 0HM015MTALKTI:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin   (ca22a1cb)
+2020-05-26T11:32:08.9370846+07:00 0HM015MTALKTI:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.LoginController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:32:08.9984610+07:00 0HM015MTALKTI:00000002 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.LoginController.Index (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:32:09.0227227+07:00 0HM015MTALKTI:00000002 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.LoginController.Index (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 2.0867ms. (50a9e262)
+2020-05-26T11:32:09.1375486+07:00 0HM015MTALKTI:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-05-26T11:32:09.5176444+07:00 0HM015MTALKTI:00000002 [INF] Executed ViewResult - view "Index" executed in 377.7983ms. (f66409e9)
+2020-05-26T11:32:09.6423768+07:00 0HM015MTALKTI:00000002 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.LoginController.Index (KhoaLuanCoreApp)" in 581.1884ms (afa2e885)
+2020-05-26T11:32:09.9793332+07:00 0HM015MTALKTI:00000002 [INF] Request finished in 737.2705ms 200 text/html; charset=utf-8 (791a596a)
+2020-05-26T11:32:09.9957287+07:00 0HM015MTALKTL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/font-awesome/css/fontawesome.css   (ca22a1cb)
+2020-05-26T11:32:10.0022877+07:00 0HM015MTALKTI:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin-side/css/custom.css   (ca22a1cb)
+2020-05-26T11:32:10.0234455+07:00 0HM015MTALKTM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/notifyjs/dist/notify.js   (ca22a1cb)
+2020-05-26T11:32:10.0310822+07:00 0HM015MTALKTK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/nprogress/nprogress.css   (ca22a1cb)
+2020-05-26T11:32:10.0371227+07:00 0HM015MTALKTJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/notifyjs/dist/styles/metro/notify-metro.css   (ca22a1cb)
+2020-05-26T11:32:10.0731801+07:00 0HM015MTALKTK:00000001 [INF] Sending file. Request path: '"/lib/nprogress/nprogress.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\nprogress\nprogress.css"' (27b0a520)
+2020-05-26T11:32:10.0821424+07:00 0HM015MTALKTK:00000001 [INF] Request finished in 104.0884ms 200 text/css (791a596a)
+2020-05-26T11:32:10.0930895+07:00 0HM015MTALKTN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/jquery/dist/jquery.js   (ca22a1cb)
+2020-05-26T11:32:10.1474158+07:00 0HM015MTALKTO:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2020-05-26T11:32:10.1687486+07:00 0HM015MTALKTH:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2020-05-26T11:32:10.3182587+07:00 0HM015MTALKTM:00000001 [INF] Sending file. Request path: '"/lib/notifyjs/dist/notify.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\notifyjs\dist\notify.js"' (27b0a520)
+2020-05-26T11:32:10.3968348+07:00 0HM015MTALKTP:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/notifyjs/dist/styles/metro/notify-metro.js   (ca22a1cb)
+2020-05-26T11:32:10.4599678+07:00 0HM015MTALKTQ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/jquery-validation/dist/localization/messages_vi.js   (ca22a1cb)
+2020-05-26T11:32:10.4946980+07:00 0HM015MTALKTM:00000001 [INF] Request finished in 426.1473ms 200 application/javascript (791a596a)
+2020-05-26T11:32:10.5000280+07:00 0HM015MTALKTP:00000001 [INF] Sending file. Request path: '"/lib/notifyjs/dist/styles/metro/notify-metro.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\notifyjs\dist\styles\metro\notify-metro.js"' (27b0a520)
+2020-05-26T11:32:10.5440096+07:00 0HM015MTALKTR:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/jquery-validation-unobtrusive/src/jquery.validate.unobtrusive.js   (ca22a1cb)
+2020-05-26T11:32:10.5528856+07:00 0HM015MTALKTP:00000001 [INF] Request finished in 237.3111ms 200 application/javascript (791a596a)
+2020-05-26T11:32:10.5628057+07:00 0HM015MTALKTQ:00000001 [INF] Sending file. Request path: '"/lib/jquery-validation/dist/localization/messages_vi.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\jquery-validation\dist\localization\messages_vi.js"' (27b0a520)
+2020-05-26T11:32:10.5866591+07:00 0HM015MTALKTS:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/app/shared/khoaluan.js   (ca22a1cb)
+2020-05-26T11:32:10.6031436+07:00 0HM015MTALKTQ:00000001 [INF] Request finished in 249.5092ms 200 application/javascript (791a596a)
+2020-05-26T11:32:10.6151878+07:00 0HM015MTALKTT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/app/controllers/login/index.js   (ca22a1cb)
+2020-05-26T11:32:10.6391043+07:00 0HM015MTALKTU:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/animate.css/animate.css   (ca22a1cb)
+2020-05-26T11:32:10.6649478+07:00 0HM015MTALKTT:00000001 [INF] Sending file. Request path: '"/app/controllers/login/index.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\app\controllers\login\index.js"' (27b0a520)
+2020-05-26T11:32:10.6895839+07:00 0HM015MTALKTR:00000001 [INF] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/src/jquery.validate.unobtrusive.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\jquery-validation-unobtrusive\src\jquery.validate.unobtrusive.js"' (27b0a520)
+2020-05-26T11:32:10.6993543+07:00 0HM015MTALKTS:00000001 [INF] Sending file. Request path: '"/app/shared/khoaluan.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\app\shared\khoaluan.js"' (27b0a520)
+2020-05-26T11:32:10.7037828+07:00 0HM015MTALKTR:00000001 [INF] Request finished in 189.6913ms 200 application/javascript (791a596a)
+2020-05-26T11:32:10.7079775+07:00 0HM015MTALKTS:00000001 [INF] Request finished in 146.3748ms 200 application/javascript (791a596a)
+2020-05-26T11:32:10.7307472+07:00 0HM015MTALKTV:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/jquery-validation/dist/additional-methods.js   (ca22a1cb)
+2020-05-26T11:32:10.7708075+07:00 0HM015MTALKTT:00000001 [INF] Request finished in 103.4596ms 200 application/javascript (791a596a)
+2020-05-26T11:32:10.7730968+07:00 0HM015MTALKTJ:00000001 [INF] Sending file. Request path: '"/lib/notifyjs/dist/styles/metro/notify-metro.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\notifyjs\dist\styles\metro\notify-metro.css"' (27b0a520)
+2020-05-26T11:32:10.8181788+07:00 0HM015MTALKTJ:00000001 [INF] Request finished in 804.2897ms 200 text/css (791a596a)
+2020-05-26T11:32:10.9946213+07:00 0HM015MTALKTO:00000001 [INF] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js"' (27b0a520)
+2020-05-26T11:32:11.4030999+07:00 0HM015MTALKTO:00000001 [INF] Request finished in 858.2789ms 200 application/javascript (791a596a)
+2020-05-26T11:32:11.6301457+07:00 0HM015MTALKTV:00000001 [INF] Sending file. Request path: '"/lib/jquery-validation/dist/additional-methods.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\jquery-validation\dist\additional-methods.js"' (27b0a520)
+2020-05-26T11:32:11.7933794+07:00 0HM015MTALKTI:00000003 [INF] Sending file. Request path: '"/admin-side/css/custom.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\admin-side\css\custom.css"' (27b0a520)
+2020-05-26T11:32:11.8012242+07:00 0HM015MTALKTU:00000001 [INF] Sending file. Request path: '"/lib/animate.css/animate.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\animate.css\animate.css"' (27b0a520)
+2020-05-26T11:32:11.8050023+07:00 0HM015MTALKTI:00000003 [INF] Request finished in 1813.6551ms 200 text/css (791a596a)
+2020-05-26T11:32:11.8109271+07:00 0HM015MTALKTU:00000001 [INF] Request finished in 1186.2735ms 200 text/css (791a596a)
+2020-05-26T11:32:11.8136448+07:00 0HM015MTALKTV:00000001 [INF] Request finished in 960.6317ms 200 application/javascript (791a596a)
+2020-05-26T11:32:11.8591060+07:00 0HM015MTALKTL:00000001 [INF] Sending file. Request path: '"/lib/font-awesome/css/fontawesome.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\font-awesome\css\fontawesome.css"' (27b0a520)
+2020-05-26T11:32:11.9341708+07:00 0HM015MTALKTN:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2020-05-26T11:32:12.0541609+07:00 0HM015MTALKTL:00000001 [INF] Request finished in 1889.6777ms 200 text/css (791a596a)
+2020-05-26T11:32:12.0636198+07:00 0HM015MTALKTH:00000003 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2020-05-26T11:32:12.0801486+07:00 0HM015MTALKTN:00000001 [INF] Request finished in 1851.7987ms 200 application/javascript (791a596a)
+2020-05-26T11:32:12.0937544+07:00 0HM015MTALKTH:00000003 [INF] Request finished in 1927.2731ms 200 text/css (791a596a)
+2020-05-26T11:32:20.0789845+07:00 0HM015MTALKTK:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44364/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-05-26T11:32:20.2137732+07:00 0HM015MTALKTK:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(KhoaLuanCoreApp.Models.AccountViewModels.LoginViewModel)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.LoginController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:32:20.4460848+07:00 0HM015MTALKTK:00000002 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.LoginController.Authen (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:32:20.5069107+07:00 0HM015MTALKTK:00000002 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:32:20.8158931+07:00 0HM015MTALKTK:00000002 [INF] Executed DbCommand ("110"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:32:21.7924142+07:00 0HM015MTALKTK:00000002 [INF] Executed DbCommand ("29"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-05-26T11:32:21.9345793+07:00 0HM015MTALKTK:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-05-26T11:32:21.9932600+07:00 0HM015MTALKTK:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-05-26T11:32:22.0623492+07:00 0HM015MTALKTK:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-05-26T11:32:22.1061497+07:00 0HM015MTALKTK:00000002 [INF] Executed DbCommand ("15"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-05-26T11:32:22.1395797+07:00 0HM015MTALKTK:00000002 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-05-26T11:32:22.3318570+07:00 0HM015MTALKTK:00000002 [INF] User logged in. (fdce0db4)
+2020-05-26T11:32:22.4907983+07:00 0HM015MTALKTK:00000002 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.LoginController.Authen (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1890.9823ms. (50a9e262)
+2020-05-26T11:32:22.5320108+07:00 0HM015MTALKTK:00000002 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-05-26T11:32:22.7940645+07:00 0HM015MTALKTK:00000002 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.LoginController.Authen (KhoaLuanCoreApp)" in 2574.8941ms (afa2e885)
+2020-05-26T11:32:22.8088711+07:00 0HM015MTALKTK:00000002 [INF] Request finished in 2794.2686ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:32:22.8382502+07:00 0HM015MTALKTJ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Home/Index   (ca22a1cb)
+2020-05-26T11:32:22.8793195+07:00 0HM015MTALKTJ:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.HomeController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:32:22.8871005+07:00 0HM015MTALKTJ:00000002 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.HomeController.Index (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:32:22.8965123+07:00 0HM015MTALKTJ:00000002 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.HomeController.Index (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 2.8808ms. (50a9e262)
+2020-05-26T11:32:22.9515742+07:00 0HM015MTALKTJ:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-05-26T11:32:23.2162219+07:00 0HM015MTALKTJ:00000002 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:32:23.3331783+07:00 0HM015MTALKTJ:00000002 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-05-26T11:32:23.5051956+07:00 0HM015MTALKTJ:00000002 [INF] Executed ViewResult - view "Index" executed in 583.864ms. (f66409e9)
+2020-05-26T11:32:23.6238578+07:00 0HM015MTALKTJ:00000002 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.HomeController.Index (KhoaLuanCoreApp)" in 643.3821ms (afa2e885)
+2020-05-26T11:32:24.8148269+07:00 0HM015MTALKTJ:00000002 [INF] Request finished in 798.5215ms 200 text/html; charset=utf-8 (791a596a)
+2020-05-26T11:32:24.8224900+07:00 0HM015MTALKTT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2020-05-26T11:32:24.8271222+07:00 0HM015MTALKTP:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/nprogress/nprogress.css   (ca22a1cb)
+2020-05-26T11:32:24.8352164+07:00 0HM015MTALKTL:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/fastclick/lib/fastclick.js   (ca22a1cb)
+2020-05-26T11:32:24.8451889+07:00 0HM015MTALKTJ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/jquery-sparkline/dist/jquery.sparkline.js   (ca22a1cb)
+2020-05-26T11:32:24.8590930+07:00 0HM015MTALKTH:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/twbs-pagination/jquery.twbsPagination.js   (ca22a1cb)
+2020-05-26T11:32:24.8696554+07:00 0HM015MTALKTQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/font-awesome/css/font-awesome.css   (ca22a1cb)
+2020-05-26T11:32:25.0020112+07:00 0HM015MTALKTL:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/fastclick/lib/fastclick.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\fastclick\lib\fastclick.js"' (27b0a520)
+2020-05-26T11:32:25.0153329+07:00 0HM015MTALKTI:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2020-05-26T11:32:25.0226676+07:00 0HM015MTALKTH:00000004 [INF] Sending file. Request path: '"/lib/twbs-pagination/jquery.twbsPagination.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\twbs-pagination\jquery.twbsPagination.js"' (27b0a520)
+2020-05-26T11:32:25.0450910+07:00 0HM015MTALKTL:00000002 [INF] Request finished in 187.019ms 200 application/javascript (791a596a)
+2020-05-26T11:32:25.0861912+07:00 0HM015MTALKTH:00000004 [INF] Request finished in 177.2566ms 200 application/javascript (791a596a)
+2020-05-26T11:32:25.1052088+07:00 0HM015MTALKTQ:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/font-awesome/css/font-awesome.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\font-awesome\css\font-awesome.css"' (27b0a520)
+2020-05-26T11:32:25.1199923+07:00 0HM015MTALKTK:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2020-05-26T11:32:25.1476059+07:00 0HM015MTALKU3:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/production/js/moment/moment.min.js   (ca22a1cb)
+2020-05-26T11:32:25.1528188+07:00 0HM015MTALKU0:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/ckeditor/ckeditor.js   (ca22a1cb)
+2020-05-26T11:32:25.1723938+07:00 0HM015MTALKTQ:00000002 [INF] Request finished in 245.4718ms 200 text/css (791a596a)
+2020-05-26T11:32:25.1788750+07:00 0HM015MTALKTO:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/jquery/dist/jquery.js   (ca22a1cb)
+2020-05-26T11:32:25.3260601+07:00 0HM015MTALKTV:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/nprogress/nprogress.js   (ca22a1cb)
+2020-05-26T11:32:25.5141796+07:00 0HM015MTALKU7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/build/js/custom.js   (ca22a1cb)
+2020-05-26T11:32:25.5785701+07:00 0HM015MTALKTU:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/Chart.js/dist/Chart.js   (ca22a1cb)
+2020-05-26T11:32:25.6151235+07:00 0HM015MTALKU3:00000001 [INF] Sending file. Request path: '"/lib/gentelella/production/js/moment/moment.min.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\production\js\moment\moment.min.js"' (27b0a520)
+2020-05-26T11:32:25.6349178+07:00 0HM015MTALKU8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin-side/images/img.jpg   (ca22a1cb)
+2020-05-26T11:32:25.6527486+07:00 0HM015MTALKTK:00000003 [INF] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js"' (27b0a520)
+2020-05-26T11:32:25.7128414+07:00 0HM015MTALKU3:00000001 [INF] Request finished in 520.5814ms 200 application/javascript (791a596a)
+2020-05-26T11:32:25.7812937+07:00 0HM015MTALKTK:00000003 [INF] Request finished in 637.5701ms 200 application/javascript (791a596a)
+2020-05-26T11:32:26.0634528+07:00 0HM015MTALKUA:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/notifyjs/dist/notify.js   (ca22a1cb)
+2020-05-26T11:32:26.2850669+07:00 0HM015MTALKUB:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/bootbox/bootbox.js   (ca22a1cb)
+2020-05-26T11:32:26.6398055+07:00 0HM015MTALKU8:00000001 [INF] Sending file. Request path: '"/admin-side/images/img.jpg"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\admin-side\images\img.jpg"' (27b0a520)
+2020-05-26T11:32:26.7731092+07:00 0HM015MTALKTV:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/nprogress/nprogress.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\nprogress\nprogress.js"' (27b0a520)
+2020-05-26T11:32:26.9313791+07:00 0HM015MTALKUB:00000001 [INF] Sending file. Request path: '"/lib/bootbox/bootbox.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\bootbox\bootbox.js"' (27b0a520)
+2020-05-26T11:32:26.9456905+07:00 0HM015MTALKTV:00000002 [INF] Request finished in 1736.1361ms 200 application/javascript (791a596a)
+2020-05-26T11:32:26.9544438+07:00 0HM015MTALKUB:00000001 [INF] Request finished in 1149.3934ms 200 application/javascript (791a596a)
+2020-05-26T11:32:26.9669109+07:00 0HM015MTALKU8:00000001 [INF] Request finished in 1140.0799ms 200 image/jpeg (791a596a)
+2020-05-26T11:32:27.0272663+07:00 0HM015MTALKTR:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/notifyjs/dist/styles/metro/notify-metro.css   (ca22a1cb)
+2020-05-26T11:32:27.1043255+07:00 0HM015MTALKTS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.css   (ca22a1cb)
+2020-05-26T11:32:27.2420923+07:00 0HM015MTALKTM:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/build/css/custom.css   (ca22a1cb)
+2020-05-26T11:32:27.3642816+07:00 0HM015MTALKTR:00000002 [INF] Sending file. Request path: '"/lib/notifyjs/dist/styles/metro/notify-metro.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\notifyjs\dist\styles\metro\notify-metro.css"' (27b0a520)
+2020-05-26T11:32:27.4235452+07:00 0HM015MTALKTJ:00000003 [INF] Sending file. Request path: '"/lib/gentelella/vendors/jquery-sparkline/dist/jquery.sparkline.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\jquery-sparkline\dist\jquery.sparkline.js"' (27b0a520)
+2020-05-26T11:32:27.4568579+07:00 0HM015MTALKTS:00000002 [INF] Sending file. Request path: '"/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\bootstrap-datepicker\dist\css\bootstrap-datepicker.css"' (27b0a520)
+2020-05-26T11:32:27.4645233+07:00 0HM015MTALKTR:00000002 [INF] Request finished in 409.7346ms 200 text/css (791a596a)
+2020-05-26T11:32:27.4768867+07:00 0HM015MTALKU7:00000001 [INF] Sending file. Request path: '"/lib/gentelella/build/js/custom.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\build\js\custom.js"' (27b0a520)
+2020-05-26T11:32:27.4846634+07:00 0HM015MTALKTS:00000002 [INF] Request finished in 489.6596ms 200 text/css (791a596a)
+2020-05-26T11:32:27.4969630+07:00 0HM015MTALKU7:00000001 [INF] Request finished in 2298.4081ms 200 application/javascript (791a596a)
+2020-05-26T11:32:27.6009672+07:00 0HM015MTALKTJ:00000003 [INF] Request finished in 2608.7027ms 200 application/javascript (791a596a)
+2020-05-26T11:32:27.7039368+07:00 0HM015MTALKTO:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/jquery/dist/jquery.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\jquery\dist\jquery.js"' (27b0a520)
+2020-05-26T11:32:27.8025795+07:00 0HM015MTALKTM:00000002 [INF] Sending file. Request path: '"/lib/gentelella/build/css/custom.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\build\css\custom.css"' (27b0a520)
+2020-05-26T11:32:27.9525682+07:00 0HM015MTALKTO:00000002 [INF] Request finished in 2688.9269ms 200 application/javascript (791a596a)
+2020-05-26T11:32:28.1060094+07:00 0HM015MTALKTM:00000002 [INF] Request finished in 1579.2988ms 200 text/css (791a596a)
+2020-05-26T11:32:28.2401411+07:00 0HM015MTALKTU:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/Chart.js/dist/Chart.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\Chart.js\dist\Chart.js"' (27b0a520)
+2020-05-26T11:32:28.5475084+07:00 0HM015MTALKTT:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2020-05-26T11:32:28.7146542+07:00 0HM015MTALKTU:00000002 [INF] Request finished in 2911.4934ms 200 application/javascript (791a596a)
+2020-05-26T11:32:28.7463150+07:00 0HM015MTALKTT:00000002 [INF] Request finished in 3736.5553ms 200 text/css (791a596a)
+2020-05-26T11:32:28.7575738+07:00 0HM015MTALKTI:00000004 [INF] Sending file. Request path: '"/lib/gentelella/vendors/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2020-05-26T11:32:28.7682902+07:00 0HM015MTALKU0:00000001 [INF] Sending file. Request path: '"/lib/ckeditor/ckeditor.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\ckeditor\ckeditor.js"' (27b0a520)
+2020-05-26T11:32:28.7818252+07:00 0HM015MTALKTI:00000004 [INF] Request finished in 3782.0413ms 200 application/javascript (791a596a)
+2020-05-26T11:32:28.8505569+07:00 0HM015MTALKU0:00000001 [INF] Request finished in 3658.8559ms 200 application/javascript (791a596a)
+2020-05-26T11:32:28.8945514+07:00 0HM015MTALKTP:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/nprogress/nprogress.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\nprogress\nprogress.css"' (27b0a520)
+2020-05-26T11:32:28.8994244+07:00 0HM015MTALKUA:00000001 [INF] Sending file. Request path: '"/lib/notifyjs/dist/notify.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\notifyjs\dist\notify.js"' (27b0a520)
+2020-05-26T11:32:28.9062283+07:00 0HM015MTALKTP:00000002 [INF] Request finished in 4078.9364ms 200 text/css (791a596a)
+2020-05-26T11:32:28.9131006+07:00 0HM015MTALKUA:00000001 [INF] Request finished in 3398.8108ms 200 application/javascript (791a596a)
+2020-05-26T11:32:28.9201442+07:00 0HM015MTALKU9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/bootstrap-daterangepicker/daterangepicker.js   (ca22a1cb)
+2020-05-26T11:32:28.9249184+07:00 0HM015MTALKTN:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/mustache/mustache.js   (ca22a1cb)
+2020-05-26T11:32:28.9300265+07:00 0HM015MTALKU1:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/jquery-validation-unobtrusive/src/jquery.validate.unobtrusive.js   (ca22a1cb)
+2020-05-26T11:32:28.9673161+07:00 0HM015MTALKU5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/notifyjs/dist/styles/metro/notify-metro.js   (ca22a1cb)
+2020-05-26T11:32:29.0138165+07:00 0HM015MTALKU2:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/DateJS/build/date.js   (ca22a1cb)
+2020-05-26T11:32:29.0786366+07:00 0HM015MTALKU4:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/ckeditor/skins/moono/editor.css   (ca22a1cb)
+2020-05-26T11:32:29.1193489+07:00 0HM015MTALKU1:00000001 [INF] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/src/jquery.validate.unobtrusive.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\jquery-validation-unobtrusive\src\jquery.validate.unobtrusive.js"' (27b0a520)
+2020-05-26T11:32:29.3398254+07:00 0HM015MTALKU6:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/app/shared/khoaluan.js   (ca22a1cb)
+2020-05-26T11:32:29.4387798+07:00 0HM015MTALKU5:00000001 [INF] Sending file. Request path: '"/lib/notifyjs/dist/styles/metro/notify-metro.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\notifyjs\dist\styles\metro\notify-metro.js"' (27b0a520)
+2020-05-26T11:32:29.4564604+07:00 0HM015MTALKTN:00000002 [INF] Sending file. Request path: '"/lib/mustache/mustache.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\mustache\mustache.js"' (27b0a520)
+2020-05-26T11:32:29.4651046+07:00 0HM015MTALKU5:00000001 [INF] Request finished in 4291.3883ms 200 application/javascript (791a596a)
+2020-05-26T11:32:29.4793397+07:00 0HM015MTALKTN:00000002 [INF] Request finished in 4370.5143ms 200 application/javascript (791a596a)
+2020-05-26T11:32:29.4831119+07:00 0HM015MTALKU2:00000001 [INF] Sending file. Request path: '"/lib/gentelella/vendors/DateJS/build/date.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\DateJS\build\date.js"' (27b0a520)
+2020-05-26T11:32:29.4956330+07:00 0HM015MTALKU1:00000001 [INF] Request finished in 4020.8541ms 200 application/javascript (791a596a)
+2020-05-26T11:32:29.5004327+07:00 0HM015MTALKU2:00000001 [INF] Request finished in 4382.6044ms 200 application/javascript (791a596a)
+2020-05-26T11:32:29.5032249+07:00 0HM015MTALKU4:00000001 [INF] Sending file. Request path: '"/lib/ckeditor/skins/moono/editor.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\ckeditor\skins\moono\editor.css"' (27b0a520)
+2020-05-26T11:32:29.5121744+07:00 0HM015MTALKU9:00000001 [INF] Sending file. Request path: '"/lib/gentelella/vendors/bootstrap-daterangepicker/daterangepicker.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\bootstrap-daterangepicker\daterangepicker.js"' (27b0a520)
+2020-05-26T11:32:29.5179750+07:00 0HM015MTALKU4:00000001 [INF] Request finished in 4385.9358ms 200 text/css (791a596a)
+2020-05-26T11:32:29.5457528+07:00 0HM015MTALKU9:00000001 [INF] Request finished in 4012.6011ms 200 application/javascript (791a596a)
+2020-05-26T11:32:29.6535334+07:00 0HM015MTALKU6:00000001 [INF] Sending file. Request path: '"/app/shared/khoaluan.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\app\shared\khoaluan.js"' (27b0a520)
+2020-05-26T11:32:29.6782668+07:00 0HM015MTALKU3:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3   (ca22a1cb)
+2020-05-26T11:32:29.7570936+07:00 0HM015MTALKU8:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2   (ca22a1cb)
+2020-05-26T11:32:29.7808054+07:00 0HM015MTALKU6:00000001 [INF] Request finished in 4500.8799ms 200 application/javascript (791a596a)
+2020-05-26T11:32:29.8522974+07:00 0HM015MTALKU3:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2"' (27b0a520)
+2020-05-26T11:32:29.8765829+07:00 0HM015MTALKU8:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"' (27b0a520)
+2020-05-26T11:32:29.9424104+07:00 0HM015MTALKU3:00000002 [INF] Request finished in 283.0817ms 200 font/woff2 (791a596a)
+2020-05-26T11:32:29.9483348+07:00 0HM015MTALKU8:00000002 [INF] Request finished in 226.9183ms 200 font/woff2 (791a596a)
+2020-05-26T11:32:35.4979041+07:00 0HM015MTALKTQ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/index   (ca22a1cb)
+2020-05-26T11:32:35.5065228+07:00 0HM015MTALKTQ:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:32:35.5143475+07:00 0HM015MTALKTQ:00000003 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.Index (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:32:35.5177842+07:00 0HM015MTALKTQ:00000003 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.Index (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5904ms. (50a9e262)
+2020-05-26T11:32:35.5393634+07:00 0HM015MTALKTQ:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-05-26T11:32:35.6463608+07:00 0HM015MTALKTQ:00000003 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:32:35.6671021+07:00 0HM015MTALKTQ:00000003 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-05-26T11:32:35.9741220+07:00 0HM015MTALKTQ:00000003 [INF] Executed ViewResult - view "Index" executed in 363.3281ms. (f66409e9)
+2020-05-26T11:32:36.1202316+07:00 0HM015MTALKTQ:00000003 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.Index (KhoaLuanCoreApp)" in 467.8579ms (afa2e885)
+2020-05-26T11:32:36.2793614+07:00 0HM015MTALKTQ:00000003 [INF] Request finished in 627.0331ms 200 text/html; charset=utf-8 (791a596a)
+2020-05-26T11:32:36.4458039+07:00 0HM015MTALKTH:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/nprogress/nprogress.css   (ca22a1cb)
+2020-05-26T11:32:36.5505405+07:00 0HM015MTALKU7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/nprogress/nprogress.js   (ca22a1cb)
+2020-05-26T11:32:36.5633551+07:00 0HM015MTALKTM:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2020-05-26T11:32:36.5863776+07:00 0HM015MTALKTQ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin-side/images/img.jpg   (ca22a1cb)
+2020-05-26T11:32:36.6178460+07:00 0HM015MTALKTM:00000003 [INF] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\jquery-validation\dist\jquery.validate.js"' (27b0a520)
+2020-05-26T11:32:36.6243771+07:00 0HM015MTALKUB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/fastclick/lib/fastclick.js   (ca22a1cb)
+2020-05-26T11:32:36.6518632+07:00 0HM015MTALKTM:00000003 [INF] Request finished in 337.6613ms 200 application/javascript (791a596a)
+2020-05-26T11:32:36.6579868+07:00 0HM015MTALKTI:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2020-05-26T11:32:36.6653556+07:00 0HM015MTALKUA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/jquery/dist/jquery.js   (ca22a1cb)
+2020-05-26T11:32:36.6744222+07:00 0HM015MTALKTV:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/build/css/custom.css   (ca22a1cb)
+2020-05-26T11:32:36.6841203+07:00 0HM015MTALKTR:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.css   (ca22a1cb)
+2020-05-26T11:32:36.7135226+07:00 0HM015MTALKU9:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/notifyjs/dist/notify.js   (ca22a1cb)
+2020-05-26T11:32:36.7378724+07:00 0HM015MTALKU5:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/production/js/moment/moment.min.js   (ca22a1cb)
+2020-05-26T11:32:36.7518288+07:00 0HM015MTALKU9:00000002 [INF] Sending file. Request path: '"/lib/notifyjs/dist/notify.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\notifyjs\dist\notify.js"' (27b0a520)
+2020-05-26T11:32:36.7636380+07:00 0HM015MTALKU1:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/DateJS/build/date.js   (ca22a1cb)
+2020-05-26T11:32:36.7769867+07:00 0HM015MTALKU9:00000002 [INF] Request finished in 521.7476ms 200 application/javascript (791a596a)
+2020-05-26T11:32:36.7824525+07:00 0HM015MTALKTT:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/jquery-sparkline/dist/jquery.sparkline.js   (ca22a1cb)
+2020-05-26T11:32:36.7883590+07:00 0HM015MTALKUC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/ckeditor/skins/moono/editor.css   (ca22a1cb)
+2020-05-26T11:32:36.7970458+07:00 0HM015MTALKU5:00000002 [INF] Sending file. Request path: '"/lib/gentelella/production/js/moment/moment.min.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\production\js\moment\moment.min.js"' (27b0a520)
+2020-05-26T11:32:36.8071425+07:00 0HM015MTALKTJ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/twbs-pagination/jquery.twbsPagination.js   (ca22a1cb)
+2020-05-26T11:32:36.8125261+07:00 0HM015MTALKU5:00000002 [INF] Request finished in 569.9151ms 200 application/javascript (791a596a)
+2020-05-26T11:32:36.8176974+07:00 0HM015MTALKTU:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/jquery-validation-unobtrusive/src/jquery.validate.unobtrusive.js   (ca22a1cb)
+2020-05-26T11:32:36.8224306+07:00 0HM015MTALKTN:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/bootstrap-daterangepicker/daterangepicker.js   (ca22a1cb)
+2020-05-26T11:32:36.8252957+07:00 0HM015MTALKUC:00000001 [INF] Sending file. Request path: '"/lib/ckeditor/skins/moono/editor.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\ckeditor\skins\moono\editor.css"' (27b0a520)
+2020-05-26T11:32:36.8342754+07:00 0HM015MTALKUC:00000001 [INF] Request finished in 595.9719ms 200 text/css (791a596a)
+2020-05-26T11:32:36.8385203+07:00 0HM015MTALKTU:00000003 [INF] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/src/jquery.validate.unobtrusive.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\jquery-validation-unobtrusive\src\jquery.validate.unobtrusive.js"' (27b0a520)
+2020-05-26T11:32:36.8443770+07:00 0HM015MTALKU2:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/bootbox/bootbox.js   (ca22a1cb)
+2020-05-26T11:32:36.8488093+07:00 0HM015MTALKTU:00000003 [INF] Request finished in 41.737ms 200 application/javascript (791a596a)
+2020-05-26T11:32:36.8549778+07:00 0HM015MTALKU6:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/app/shared/khoaluan.js   (ca22a1cb)
+2020-05-26T11:32:36.8615698+07:00 0HM015MTALKTO:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/Chart.js/dist/Chart.js   (ca22a1cb)
+2020-05-26T11:32:36.8649590+07:00 0HM015MTALKU3:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/build/js/custom.js   (ca22a1cb)
+2020-05-26T11:32:36.8721743+07:00 0HM015MTALKTS:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/mustache/mustache.js   (ca22a1cb)
+2020-05-26T11:32:36.8763873+07:00 0HM015MTALKU0:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/ckeditor/ckeditor.js   (ca22a1cb)
+2020-05-26T11:32:36.8785529+07:00 0HM015MTALKU4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/notifyjs/dist/styles/metro/notify-metro.js   (ca22a1cb)
+2020-05-26T11:32:37.0028955+07:00 0HM015MTALKU8:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/app/controllers/user/index.js?v=8jZlMI-wr65t7vbf7I0gZHsRZzE9tXqMnCLzJBQqTFE   (ca22a1cb)
+2020-05-26T11:32:37.1501567+07:00 0HM015MTALKU4:00000002 [INF] Sending file. Request path: '"/lib/notifyjs/dist/styles/metro/notify-metro.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\notifyjs\dist\styles\metro\notify-metro.js"' (27b0a520)
+2020-05-26T11:32:37.2877723+07:00 0HM015MTALKTJ:00000004 [INF] Sending file. Request path: '"/lib/twbs-pagination/jquery.twbsPagination.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\twbs-pagination\jquery.twbsPagination.js"' (27b0a520)
+2020-05-26T11:32:37.3280049+07:00 0HM015MTALKU4:00000002 [INF] Request finished in 278.1298ms 200 application/javascript (791a596a)
+2020-05-26T11:32:37.3631056+07:00 0HM015MTALKTJ:00000004 [INF] Request finished in 491.0511ms 200 application/javascript (791a596a)
+2020-05-26T11:32:37.4323936+07:00 0HM015MTALKU6:00000002 [INF] Sending file. Request path: '"/app/shared/khoaluan.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\app\shared\khoaluan.js"' (27b0a520)
+2020-05-26T11:32:37.4457499+07:00 0HM015MTALKTL:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/notifyjs/dist/styles/metro/notify-metro.css   (ca22a1cb)
+2020-05-26T11:32:37.4519654+07:00 0HM015MTALKU6:00000002 [INF] Request finished in 588.1175ms 200 application/javascript (791a596a)
+2020-05-26T11:32:37.4614744+07:00 0HM015MTALKTS:00000003 [INF] Sending file. Request path: '"/lib/mustache/mustache.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\mustache\mustache.js"' (27b0a520)
+2020-05-26T11:32:37.5126130+07:00 0HM015MTALKTP:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2020-05-26T11:32:37.5235459+07:00 0HM015MTALKTS:00000003 [INF] Request finished in 596.6931ms 200 application/javascript (791a596a)
+2020-05-26T11:32:37.5345417+07:00 0HM015MTALKU2:00000002 [INF] Sending file. Request path: '"/lib/bootbox/bootbox.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\bootbox\bootbox.js"' (27b0a520)
+2020-05-26T11:32:37.5518992+07:00 0HM015MTALKTK:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/font-awesome/css/font-awesome.css   (ca22a1cb)
+2020-05-26T11:32:37.5613958+07:00 0HM015MTALKTL:00000003 [INF] Sending file. Request path: '"/lib/notifyjs/dist/styles/metro/notify-metro.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\notifyjs\dist\styles\metro\notify-metro.css"' (27b0a520)
+2020-05-26T11:32:37.5679078+07:00 0HM015MTALKU2:00000002 [INF] Request finished in 704.5429ms 200 application/javascript (791a596a)
+2020-05-26T11:32:37.5829506+07:00 0HM015MTALKTL:00000003 [INF] Request finished in 198.2323ms 200 text/css (791a596a)
+2020-05-26T11:32:37.6283026+07:00 0HM015MTALKTK:00000004 [INF] Sending file. Request path: '"/lib/gentelella/vendors/font-awesome/css/font-awesome.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\font-awesome\css\font-awesome.css"' (27b0a520)
+2020-05-26T11:32:37.6391330+07:00 0HM015MTALKU8:00000003 [INF] Sending file. Request path: '"/app/controllers/user/index.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\app\controllers\user\index.js"' (27b0a520)
+2020-05-26T11:32:37.7170560+07:00 0HM015MTALKTK:00000004 [INF] Request finished in 104.5221ms 200 text/css (791a596a)
+2020-05-26T11:32:37.7213214+07:00 0HM015MTALKTN:00000003 [INF] Sending file. Request path: '"/lib/gentelella/vendors/bootstrap-daterangepicker/daterangepicker.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\bootstrap-daterangepicker\daterangepicker.js"' (27b0a520)
+2020-05-26T11:32:37.7324591+07:00 0HM015MTALKU8:00000003 [INF] Request finished in 760.2299ms 200 application/javascript (791a596a)
+2020-05-26T11:32:37.7445232+07:00 0HM015MTALKTN:00000003 [INF] Request finished in 908.793ms 200 application/javascript (791a596a)
+2020-05-26T11:32:37.8190539+07:00 0HM015MTALKTT:00000003 [INF] Sending file. Request path: '"/lib/gentelella/vendors/jquery-sparkline/dist/jquery.sparkline.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\jquery-sparkline\dist\jquery.sparkline.js"' (27b0a520)
+2020-05-26T11:32:37.8551572+07:00 0HM015MTALKTR:00000003 [INF] Sending file. Request path: '"/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\bootstrap-datepicker\dist\css\bootstrap-datepicker.css"' (27b0a520)
+2020-05-26T11:32:38.1141322+07:00 0HM015MTALKTT:00000003 [INF] Request finished in 1589.1099ms 200 application/javascript (791a596a)
+2020-05-26T11:32:38.1720454+07:00 0HM015MTALKTR:00000003 [INF] Request finished in 1625.0603ms 200 text/css (791a596a)
+2020-05-26T11:32:38.4078353+07:00 0HM015MTALKU3:00000003 [INF] Sending file. Request path: '"/lib/gentelella/build/js/custom.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\build\js\custom.js"' (27b0a520)
+2020-05-26T11:32:38.4238926+07:00 0HM015MTALKTQ:00000004 [INF] Sending file. Request path: '"/admin-side/images/img.jpg"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\admin-side\images\img.jpg"' (27b0a520)
+2020-05-26T11:32:38.6163784+07:00 0HM015MTALKU7:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/nprogress/nprogress.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\nprogress\nprogress.js"' (27b0a520)
+2020-05-26T11:32:38.6585486+07:00 0HM015MTALKTQ:00000004 [INF] Request finished in 2144.5127ms 200 image/jpeg (791a596a)
+2020-05-26T11:32:38.7225227+07:00 0HM015MTALKU7:00000002 [INF] Request finished in 2336.192ms 200 application/javascript (791a596a)
+2020-05-26T11:32:38.7993059+07:00 0HM015MTALKU3:00000003 [INF] Request finished in 1573.6149ms 200 application/javascript (791a596a)
+2020-05-26T11:32:38.8672548+07:00 0HM015MTALKU1:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/DateJS/build/date.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\DateJS\build\date.js"' (27b0a520)
+2020-05-26T11:32:38.8838804+07:00 0HM015MTALKUB:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/fastclick/lib/fastclick.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\fastclick\lib\fastclick.js"' (27b0a520)
+2020-05-26T11:32:38.9005891+07:00 0HM015MTALKTP:00000003 [INF] Sending file. Request path: '"/lib/gentelella/vendors/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2020-05-26T11:32:38.9147120+07:00 0HM015MTALKUB:00000002 [INF] Request finished in 2658.2855ms 200 application/javascript (791a596a)
+2020-05-26T11:32:38.9690901+07:00 0HM015MTALKTP:00000003 [INF] Request finished in 1450.8963ms 200 text/css (791a596a)
+2020-05-26T11:32:38.9868236+07:00 0HM015MTALKTO:00000003 [INF] Sending file. Request path: '"/lib/gentelella/vendors/Chart.js/dist/Chart.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\Chart.js\dist\Chart.js"' (27b0a520)
+2020-05-26T11:32:39.1347293+07:00 0HM015MTALKTH:00000005 [INF] Sending file. Request path: '"/lib/gentelella/vendors/nprogress/nprogress.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\nprogress\nprogress.css"' (27b0a520)
+2020-05-26T11:32:39.2002100+07:00 0HM015MTALKTO:00000003 [INF] Request finished in 2137.9299ms 200 application/javascript (791a596a)
+2020-05-26T11:32:39.3002119+07:00 0HM015MTALKTH:00000005 [INF] Request finished in 2909.2489ms 200 text/css (791a596a)
+2020-05-26T11:32:39.3386618+07:00 0HM015MTALKTI:00000005 [INF] Sending file. Request path: '"/lib/gentelella/vendors/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2020-05-26T11:32:39.3481109+07:00 0HM015MTALKUA:00000002 [INF] Sending file. Request path: '"/lib/gentelella/vendors/jquery/dist/jquery.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\jquery\dist\jquery.js"' (27b0a520)
+2020-05-26T11:32:39.3548660+07:00 0HM015MTALKTI:00000005 [INF] Request finished in 3110.6247ms 200 application/javascript (791a596a)
+2020-05-26T11:32:39.5679002+07:00 0HM015MTALKUA:00000002 [INF] Request finished in 3119.9409ms 200 application/javascript (791a596a)
+2020-05-26T11:32:39.6434135+07:00 0HM015MTALKTV:00000003 [INF] Sending file. Request path: '"/lib/gentelella/build/css/custom.css"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\build\css\custom.css"' (27b0a520)
+2020-05-26T11:32:40.0826897+07:00 0HM015MTALKU9:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2   (ca22a1cb)
+2020-05-26T11:32:40.2468105+07:00 0HM015MTALKU5:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/lib/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3   (ca22a1cb)
+2020-05-26T11:32:40.4882243+07:00 0HM015MTALKTV:00000003 [INF] Request finished in 3413.2972ms 200 text/css (791a596a)
+2020-05-26T11:32:40.5628527+07:00 0HM015MTALKU9:00000003 [INF] Sending file. Request path: '"/lib/gentelella/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"' (27b0a520)
+2020-05-26T11:32:40.6157150+07:00 0HM015MTALKU5:00000003 [INF] Sending file. Request path: '"/lib/gentelella/vendors/font-awesome/fonts/fontawesome-webfont.woff2"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\gentelella\vendors\font-awesome\fonts\fontawesome-webfont.woff2"' (27b0a520)
+2020-05-26T11:32:40.6254164+07:00 0HM015MTALKU9:00000003 [INF] Request finished in 994.3852ms 200 font/woff2 (791a596a)
+2020-05-26T11:32:40.6441552+07:00 0HM015MTALKU5:00000003 [INF] Request finished in 1002.5318ms 200 font/woff2 (791a596a)
+2020-05-26T11:32:40.6549730+07:00 0HM015MTALKU0:00000002 [INF] Sending file. Request path: '"/lib/ckeditor/ckeditor.js"'. Physical path: '"C:\KhoaLuan\KLCoreApp\KhoaLuanCoreApp\wwwroot\lib\ckeditor\ckeditor.js"' (27b0a520)
+2020-05-26T11:32:40.8623682+07:00 0HM015MTALKU4:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:32:40.8855842+07:00 0HM015MTALKU0:00000002 [INF] Request finished in 3790.1566ms 200 application/javascript (791a596a)
+2020-05-26T11:32:40.9017694+07:00 0HM015MTALKU4:00000003 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:32:40.9065313+07:00 0HM015MTALKU1:00000002 [INF] Request finished in 2637.3265ms 200 application/javascript (791a596a)
+2020-05-26T11:32:40.9376265+07:00 0HM015MTALKU4:00000003 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:32:40.9653659+07:00 0HM015MTALKU4:00000003 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:32:41.1013437+07:00 0HM015MTALKU4:00000003 [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:32:41.1469145+07:00 0HM015MTALKU4:00000003 [WRN] Query: '"(from AppUser x in DbSet<AppUser> select new AppUserViewModel{ { 
+    UserName = [x].UserName, , 
+..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2020-05-26T11:32:41.1884289+07:00 0HM015MTALKU4:00000003 [INF] Executed DbCommand ("16"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:32:41.2887825+07:00 0HM015MTALKU4:00000003 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 262.604ms. (50a9e262)
+2020-05-26T11:32:41.3341668+07:00 0HM015MTALKU4:00000003 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:32:41.5032174+07:00 0HM015MTALKU4:00000003 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 497.4708ms (afa2e885)
+2020-05-26T11:32:41.7270955+07:00 0HM015MTALKU4:00000003 [INF] Request finished in 858.9736ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:32:41.7513535+07:00 0HM015MTALKTS:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:32:41.7529703+07:00 0HM015MTALKTU:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:32:41.9132216+07:00 0HM015MTALKTU:00000004 [INF] Request finished in 9.5916ms 404  (791a596a)
+2020-05-26T11:32:41.9379322+07:00 0HM015MTALKTS:00000004 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:32:41.9473430+07:00 0HM015MTALKTS:00000004 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:32:41.9600197+07:00 0HM015MTALKTS:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:32:41.9697373+07:00 0HM015MTALKTS:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:32:41.9850107+07:00 0HM015MTALKTS:00000004 [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:32:41.9919786+07:00 0HM015MTALKTS:00000004 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 38.0226ms. (50a9e262)
+2020-05-26T11:32:41.9974027+07:00 0HM015MTALKTS:00000004 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:32:42.0031795+07:00 0HM015MTALKTS:00000004 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 59.8011ms (afa2e885)
+2020-05-26T11:32:42.0230879+07:00 0HM015MTALKTS:00000004 [INF] Request finished in 275.9376ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:32:42.0384580+07:00 0HM015MTALKTM:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:32:42.0558442+07:00 0HM015MTALKTM:00000004 [INF] Request finished in 16.0378ms 404  (791a596a)
+2020-05-26T11:32:44.2651883+07:00 0HM015MTALKUC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/User/GetById?id=58d010ff-10cd-42a6-a50c-08d7ffadbfb9   (ca22a1cb)
+2020-05-26T11:32:44.2857271+07:00 0HM015MTALKUC:00000002 [INF] Route matched with "{area = \"Admin\", action = \"GetById\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:32:44.2962879+07:00 0HM015MTALKUC:00000002 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:32:44.3222313+07:00 0HM015MTALKUC:00000002 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:32:44.4885819+07:00 0HM015MTALKUC:00000002 [INF] Executed DbCommand ("128"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Avatar], [e].[Balance], [e].[BirthDay], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[DateModified], [e].[Email], [e].[EmailConfirmed], [e].[FullName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[Status], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AppUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0" (0723d8ff)
+2020-05-26T11:32:44.6727617+07:00 0HM015MTALKUC:00000002 [INF] Executed DbCommand ("123"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-05-26T11:32:44.7377919+07:00 0HM015MTALKUC:00000002 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 435.914ms. (50a9e262)
+2020-05-26T11:32:44.7453363+07:00 0HM015MTALKUC:00000002 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel"'. (8a1b66c8)
+2020-05-26T11:32:44.7669515+07:00 0HM015MTALKUC:00000002 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)" in 459.8565ms (afa2e885)
+2020-05-26T11:32:44.7781287+07:00 0HM015MTALKUC:00000002 [INF] Request finished in 519.7338ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:32:44.8372692+07:00 0HM015MTALKTJ:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:32:44.8527350+07:00 0HM015MTALKTJ:00000005 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:32:44.8714462+07:00 0HM015MTALKTJ:00000005 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:32:44.8827427+07:00 0HM015MTALKTJ:00000005 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:32:44.9558845+07:00 0HM015MTALKTJ:00000005 [INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:32:44.9647912+07:00 0HM015MTALKTJ:00000005 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 89.1039ms. (50a9e262)
+2020-05-26T11:32:44.9693921+07:00 0HM015MTALKTJ:00000005 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:32:44.9816155+07:00 0HM015MTALKTJ:00000005 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 122.926ms (afa2e885)
+2020-05-26T11:32:45.0183866+07:00 0HM015MTALKTJ:00000005 [INF] Request finished in 159.9644ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:33:39.5558339+07:00 0HM015MTALKU9:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:33:39.5622158+07:00 0HM015MTALKU9:00000004 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:33:39.5651647+07:00 0HM015MTALKU9:00000004 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:33:39.5694101+07:00 0HM015MTALKU9:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:33:39.5971609+07:00 0HM015MTALKU9:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:33:39.6012989+07:00 0HM015MTALKU9:00000004 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 33.4185ms. (50a9e262)
+2020-05-26T11:33:39.6049954+07:00 0HM015MTALKU9:00000004 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:33:39.6100414+07:00 0HM015MTALKU9:00000004 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 43.1188ms (afa2e885)
+2020-05-26T11:33:39.6323514+07:00 0HM015MTALKU9:00000004 [INF] Request finished in 57.9758ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:33:39.6570907+07:00 0HM015MTALKU0:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:33:39.6623505+07:00 0HM015MTALKU0:00000003 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:33:39.6663199+07:00 0HM015MTALKU0:00000003 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:33:39.6715721+07:00 0HM015MTALKU0:00000003 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:33:39.6788988+07:00 0HM015MTALKU0:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:33:39.6832183+07:00 0HM015MTALKU0:00000003 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 12.7221ms. (50a9e262)
+2020-05-26T11:33:39.6882918+07:00 0HM015MTALKU0:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:33:39.6945920+07:00 0HM015MTALKU0:00000003 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 26.1643ms (afa2e885)
+2020-05-26T11:33:39.7032400+07:00 0HM015MTALKU0:00000003 [INF] Request finished in 41.441ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:34:59.8119211+07:00 0HM015MTALKUD:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:44364/Admin/User/SaveEntity application/x-www-form-urlencoded; charset=UTF-8 169 (ca22a1cb)
+2020-05-26T11:34:59.8443452+07:00 0HM015MTALKUD:00000001 [INF] Route matched with "{area = \"Admin\", action = \"SaveEntity\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveEntity(KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:34:59.8806446+07:00 0HM015MTALKUD:00000001 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:35:37.2721742+07:00 0HM015MTALKUD:00000001 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:35:42.3914593+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:35:42.5934709+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("26"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:35:42.8005241+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("11"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Decimal), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = Boolean), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (DbType = DateTimeOffset), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 4000), @p19='?' (DbType = Int32), @p20='?' (DbType = Boolean), @p21='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AppUsers] ([Id], [AccessFailedCount], [Avatar], [Balance], [BirthDay], [ConcurrencyStamp], [DateCreated], [DateModified], [Email], [EmailConfirmed], [FullName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [Status], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);" (0723d8ff)
+2020-05-26T11:35:42.8360829+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:35:42.8667665+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2020-05-26T11:35:42.9011363+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid), @__get_Item_1='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[RoleId], [e].[UserId]
+FROM [AppUserRoles] AS [e]
+WHERE ([e].[RoleId] = @__get_Item_0) AND ([e].[UserId] = @__get_Item_1)" (0723d8ff)
+2020-05-26T11:35:42.9182875+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2020-05-26T11:35:42.9433223+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:35:42.9491418+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:35:42.9710731+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AppUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);" (0723d8ff)
+2020-05-26T11:35:42.9831405+07:00 0HM015MTALKUD:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@p21='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [Avatar] = @p1, [Balance] = @p2, [BirthDay] = @p3, [ConcurrencyStamp] = @p4, [DateCreated] = @p5, [DateModified] = @p6, [Email] = @p7, [EmailConfirmed] = @p8, [FullName] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [NormalizedEmail] = @p12, [NormalizedUserName] = @p13, [PasswordHash] = @p14, [PhoneNumber] = @p15, [PhoneNumberConfirmed] = @p16, [SecurityStamp] = @p17, [Status] = @p18, [TwoFactorEnabled] = @p19, [UserName] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:35:56.5090553+07:00 0HM015MTALKUD:00000001 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 56624.0134ms. (50a9e262)
+2020-05-26T11:35:56.5127573+07:00 0HM015MTALKUD:00000001 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel"'. (8a1b66c8)
+2020-05-26T11:35:56.5187296+07:00 0HM015MTALKUD:00000001 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)" in 56670.1946ms (afa2e885)
+2020-05-26T11:35:56.5229204+07:00 0HM015MTALKUD:00000001 [INF] Request finished in 56712.2217ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:35:56.6088740+07:00 0HM015MTALKUD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:35:56.6173135+07:00 0HM015MTALKUD:00000002 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:35:56.6203515+07:00 0HM015MTALKUD:00000002 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:35:56.6242058+07:00 0HM015MTALKUD:00000002 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:35:56.6338898+07:00 0HM015MTALKUD:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:35:56.6381093+07:00 0HM015MTALKUD:00000002 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 13.8846ms. (50a9e262)
+2020-05-26T11:35:56.6411711+07:00 0HM015MTALKUD:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:35:56.6465055+07:00 0HM015MTALKUD:00000002 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 24.414ms (afa2e885)
+2020-05-26T11:35:56.6571403+07:00 0HM015MTALKUD:00000002 [INF] Request finished in 40.8786ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:35:56.7513059+07:00 0HM015MTALKUD:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:35:56.8877433+07:00 0HM015MTALKUD:00000003 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:35:57.1071264+07:00 0HM015MTALKUD:00000003 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:35:57.1236321+07:00 0HM015MTALKUD:00000003 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:35:57.1405191+07:00 0HM015MTALKUD:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:35:57.1578653+07:00 0HM015MTALKUD:00000003 [INF] Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:35:57.3200786+07:00 0HM015MTALKUD:00000003 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 50.8538ms. (50a9e262)
+2020-05-26T11:35:57.3341717+07:00 0HM015MTALKUD:00000003 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:35:57.3421476+07:00 0HM015MTALKUD:00000003 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 446.7935ms (afa2e885)
+2020-05-26T11:35:57.3645614+07:00 0HM015MTALKUD:00000003 [INF] Request finished in 643.972ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:35:57.4087579+07:00 0HM015MTALKUD:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:35:57.4162148+07:00 0HM015MTALKUE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:35:57.4383131+07:00 0HM015MTALKUD:00000004 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:35:57.4653497+07:00 0HM015MTALKUE:00000001 [INF] Request finished in 40.0975ms 404  (791a596a)
+2020-05-26T11:35:57.4673647+07:00 0HM015MTALKUD:00000004 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:35:57.4733647+07:00 0HM015MTALKUD:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:35:57.4839497+07:00 0HM015MTALKUD:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:35:57.5231441+07:00 0HM015MTALKUD:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:35:57.5291699+07:00 0HM015MTALKUD:00000004 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 56.0094ms. (50a9e262)
+2020-05-26T11:35:57.5342640+07:00 0HM015MTALKUD:00000004 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:35:57.5459894+07:00 0HM015MTALKUD:00000004 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 96.3387ms (afa2e885)
+2020-05-26T11:35:57.5791951+07:00 0HM015MTALKUD:00000004 [INF] Request finished in 164.7749ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:35:57.5991159+07:00 0HM015MTALKUE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:35:57.6067391+07:00 0HM015MTALKUE:00000002 [INF] Request finished in 16.027ms 404  (791a596a)
+2020-05-26T11:38:04.4207303+07:00 0HM015MTALKUF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/User/GetById?id=281661a5-297c-4bdc-c729-08d8012e3ff9   (ca22a1cb)
+2020-05-26T11:38:04.4252123+07:00 0HM015MTALKUF:00000001 [INF] Route matched with "{area = \"Admin\", action = \"GetById\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:04.4283346+07:00 0HM015MTALKUF:00000001 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:04.4316584+07:00 0HM015MTALKUF:00000001 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:04.4451546+07:00 0HM015MTALKUF:00000001 [INF] Executed DbCommand ("9"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Avatar], [e].[Balance], [e].[BirthDay], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[DateModified], [e].[Email], [e].[EmailConfirmed], [e].[FullName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[Status], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AppUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0" (0723d8ff)
+2020-05-26T11:38:04.4541494+07:00 0HM015MTALKUF:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-05-26T11:38:04.4589625+07:00 0HM015MTALKUF:00000001 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 27.6887ms. (50a9e262)
+2020-05-26T11:38:04.4618190+07:00 0HM015MTALKUF:00000001 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel"'. (8a1b66c8)
+2020-05-26T11:38:04.4703876+07:00 0HM015MTALKUF:00000001 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)" in 40.2244ms (afa2e885)
+2020-05-26T11:38:04.4762801+07:00 0HM015MTALKUF:00000001 [INF] Request finished in 52.7921ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:04.4910377+07:00 0HM015MTALKUF:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:38:04.4956563+07:00 0HM015MTALKUF:00000002 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:04.4998709+07:00 0HM015MTALKUF:00000002 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:04.5051307+07:00 0HM015MTALKUF:00000002 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:04.5120052+07:00 0HM015MTALKUF:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:38:04.5159217+07:00 0HM015MTALKUF:00000002 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 12.5762ms. (50a9e262)
+2020-05-26T11:38:04.5201924+07:00 0HM015MTALKUF:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:04.5242844+07:00 0HM015MTALKUF:00000002 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 24.4513ms (afa2e885)
+2020-05-26T11:38:04.5301688+07:00 0HM015MTALKUF:00000002 [INF] Request finished in 36.7899ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:06.1001796+07:00 0HM015MTALKUF:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44364/Admin/User/SaveEntity application/x-www-form-urlencoded; charset=UTF-8 193 (ca22a1cb)
+2020-05-26T11:38:06.1049062+07:00 0HM015MTALKUF:00000003 [INF] Route matched with "{area = \"Admin\", action = \"SaveEntity\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveEntity(KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:06.1090155+07:00 0HM015MTALKUF:00000003 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:10.1815863+07:00 0HM015MTALKUF:00000003 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:10.2450716+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("33"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Avatar], [e].[Balance], [e].[BirthDay], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[DateModified], [e].[Email], [e].[EmailConfirmed], [e].[FullName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[Status], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AppUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0" (0723d8ff)
+2020-05-26T11:38:10.4051846+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("9"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-05-26T11:38:10.4626990+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("49"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:38:10.4775025+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("8"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:38:10.5420887+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("32"ms) [Parameters=["@p21='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [Avatar] = @p1, [Balance] = @p2, [BirthDay] = @p3, [ConcurrencyStamp] = @p4, [DateCreated] = @p5, [DateModified] = @p6, [Email] = @p7, [EmailConfirmed] = @p8, [FullName] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [NormalizedEmail] = @p12, [NormalizedUserName] = @p13, [PasswordHash] = @p14, [PhoneNumber] = @p15, [PhoneNumberConfirmed] = @p16, [SecurityStamp] = @p17, [Status] = @p18, [TwoFactorEnabled] = @p19, [UserName] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:38:10.5794431+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("8"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:38:10.5893660+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:38:10.5981090+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@p21='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [Avatar] = @p1, [Balance] = @p2, [BirthDay] = @p3, [ConcurrencyStamp] = @p4, [DateCreated] = @p5, [DateModified] = @p6, [Email] = @p7, [EmailConfirmed] = @p8, [FullName] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [NormalizedEmail] = @p12, [NormalizedUserName] = @p13, [PasswordHash] = @p14, [PhoneNumber] = @p15, [PhoneNumberConfirmed] = @p16, [SecurityStamp] = @p17, [Status] = @p18, [TwoFactorEnabled] = @p19, [UserName] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:38:10.6196319+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:38:10.6397812+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:38:10.6515996+07:00 0HM015MTALKUF:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@p21='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [Avatar] = @p1, [Balance] = @p2, [BirthDay] = @p3, [ConcurrencyStamp] = @p4, [DateCreated] = @p5, [DateModified] = @p6, [Email] = @p7, [EmailConfirmed] = @p8, [FullName] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [NormalizedEmail] = @p12, [NormalizedUserName] = @p13, [PasswordHash] = @p14, [PhoneNumber] = @p15, [PhoneNumberConfirmed] = @p16, [SecurityStamp] = @p17, [Status] = @p18, [TwoFactorEnabled] = @p19, [UserName] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:38:10.6599261+07:00 0HM015MTALKUF:00000003 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4544.8058ms. (50a9e262)
+2020-05-26T11:38:10.6653880+07:00 0HM015MTALKUF:00000003 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel"'. (8a1b66c8)
+2020-05-26T11:38:10.6714987+07:00 0HM015MTALKUF:00000003 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)" in 4560.8442ms (afa2e885)
+2020-05-26T11:38:10.6795709+07:00 0HM015MTALKUF:00000003 [INF] Request finished in 4574.2102ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:10.6986985+07:00 0HM015MTALKUF:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:38:10.7037640+07:00 0HM015MTALKUF:00000004 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:10.7081217+07:00 0HM015MTALKUF:00000004 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:10.7119743+07:00 0HM015MTALKUF:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:10.7284811+07:00 0HM015MTALKUF:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:38:10.7354426+07:00 0HM015MTALKUF:00000004 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 20.8061ms. (50a9e262)
+2020-05-26T11:38:10.7430701+07:00 0HM015MTALKUF:00000004 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:10.7519277+07:00 0HM015MTALKUF:00000004 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 39.7772ms (afa2e885)
+2020-05-26T11:38:10.7605843+07:00 0HM015MTALKUF:00000004 [INF] Request finished in 57.0099ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:10.7987237+07:00 0HM015MTALKUF:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:38:10.8100304+07:00 0HM015MTALKUF:00000005 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:10.8189971+07:00 0HM015MTALKUF:00000005 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:10.8593836+07:00 0HM015MTALKUF:00000005 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:10.8895055+07:00 0HM015MTALKUF:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:38:10.9127640+07:00 0HM015MTALKUF:00000005 [INF] Executed DbCommand ("8"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:38:10.9304986+07:00 0HM015MTALKUF:00000005 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 93.917ms. (50a9e262)
+2020-05-26T11:38:10.9484428+07:00 0HM015MTALKUF:00000005 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:10.9786931+07:00 0HM015MTALKUF:00000005 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 139.9913ms (afa2e885)
+2020-05-26T11:38:10.9955072+07:00 0HM015MTALKUF:00000005 [INF] Request finished in 197.7046ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:11.0782083+07:00 0HM015MTALKUF:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:38:11.1529673+07:00 0HM015MTALKUG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:38:11.1750538+07:00 0HM015MTALKUF:00000006 [INF] Request finished in 17.9193ms 404  (791a596a)
+2020-05-26T11:38:11.1806626+07:00 0HM015MTALKUG:00000001 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:11.1905454+07:00 0HM015MTALKUG:00000001 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:11.1954125+07:00 0HM015MTALKUG:00000001 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:11.2005541+07:00 0HM015MTALKUG:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:38:11.2099411+07:00 0HM015MTALKUG:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:38:11.2150303+07:00 0HM015MTALKUG:00000001 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 19.7851ms. (50a9e262)
+2020-05-26T11:38:11.2219015+07:00 0HM015MTALKUG:00000001 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:11.2383775+07:00 0HM015MTALKUG:00000001 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 42.0357ms (afa2e885)
+2020-05-26T11:38:11.2748692+07:00 0HM015MTALKUG:00000001 [INF] Request finished in 177.3117ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:11.2923093+07:00 0HM015MTALKUF:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:38:11.3083142+07:00 0HM015MTALKUF:00000007 [INF] Request finished in 26.7487ms 404  (791a596a)
+2020-05-26T11:38:15.1961943+07:00 0HM015MTALKUG:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/User/GetById?id=281661a5-297c-4bdc-c729-08d8012e3ff9   (ca22a1cb)
+2020-05-26T11:38:15.1997368+07:00 0HM015MTALKUG:00000002 [INF] Route matched with "{area = \"Admin\", action = \"GetById\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:15.2035063+07:00 0HM015MTALKUG:00000002 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:15.2074902+07:00 0HM015MTALKUG:00000002 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:15.2143388+07:00 0HM015MTALKUG:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Avatar], [e].[Balance], [e].[BirthDay], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[DateModified], [e].[Email], [e].[EmailConfirmed], [e].[FullName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[Status], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AppUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0" (0723d8ff)
+2020-05-26T11:38:15.2204479+07:00 0HM015MTALKUG:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-05-26T11:38:15.2241158+07:00 0HM015MTALKUG:00000002 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 16.9599ms. (50a9e262)
+2020-05-26T11:38:15.2271646+07:00 0HM015MTALKUG:00000002 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel"'. (8a1b66c8)
+2020-05-26T11:38:15.2326768+07:00 0HM015MTALKUG:00000002 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)" in 27.7848ms (afa2e885)
+2020-05-26T11:38:15.2481187+07:00 0HM015MTALKUG:00000002 [INF] Request finished in 39.3785ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:15.2533705+07:00 0HM015MTALKUF:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:38:15.2602234+07:00 0HM015MTALKUF:00000008 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:15.2640961+07:00 0HM015MTALKUF:00000008 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:15.2682496+07:00 0HM015MTALKUF:00000008 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:15.2750307+07:00 0HM015MTALKUF:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:38:15.2802873+07:00 0HM015MTALKUF:00000008 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 12.3218ms. (50a9e262)
+2020-05-26T11:38:15.2847829+07:00 0HM015MTALKUF:00000008 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:15.2907401+07:00 0HM015MTALKUF:00000008 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 24.9267ms (afa2e885)
+2020-05-26T11:38:15.3002778+07:00 0HM015MTALKUF:00000008 [INF] Request finished in 43.0091ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:17.5387076+07:00 0HM015MTALKUG:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44364/Admin/User/SaveEntity application/x-www-form-urlencoded; charset=UTF-8 211 (ca22a1cb)
+2020-05-26T11:38:17.5429832+07:00 0HM015MTALKUG:00000003 [INF] Route matched with "{area = \"Admin\", action = \"SaveEntity\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveEntity(KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:17.5463735+07:00 0HM015MTALKUG:00000003 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:21.0107612+07:00 0HM015MTALKUG:00000003 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:21.0633130+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("16"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Avatar], [e].[Balance], [e].[BirthDay], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[DateModified], [e].[Email], [e].[EmailConfirmed], [e].[FullName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[Status], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AppUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0" (0723d8ff)
+2020-05-26T11:38:21.0904539+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("16"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-05-26T11:38:21.1053416+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("7"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2020-05-26T11:38:21.1231313+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("5"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid), @__get_Item_1='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[RoleId], [e].[UserId]
+FROM [AppUserRoles] AS [e]
+WHERE ([e].[RoleId] = @__get_Item_0) AND ([e].[UserId] = @__get_Item_1)" (0723d8ff)
+2020-05-26T11:38:21.1335917+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2020-05-26T11:38:21.4178327+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("277"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:38:21.4366044+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:38:21.4474688+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AppUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);" (0723d8ff)
+2020-05-26T11:38:21.4547134+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@p21='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [Avatar] = @p1, [Balance] = @p2, [BirthDay] = @p3, [ConcurrencyStamp] = @p4, [DateCreated] = @p5, [DateModified] = @p6, [Email] = @p7, [EmailConfirmed] = @p8, [FullName] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [NormalizedEmail] = @p12, [NormalizedUserName] = @p13, [PasswordHash] = @p14, [PhoneNumber] = @p15, [PhoneNumberConfirmed] = @p16, [SecurityStamp] = @p17, [Status] = @p18, [TwoFactorEnabled] = @p19, [UserName] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:38:21.4662735+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:38:21.4754963+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:38:21.4942610+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@p21='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [Avatar] = @p1, [Balance] = @p2, [BirthDay] = @p3, [ConcurrencyStamp] = @p4, [DateCreated] = @p5, [DateModified] = @p6, [Email] = @p7, [EmailConfirmed] = @p8, [FullName] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [NormalizedEmail] = @p12, [NormalizedUserName] = @p13, [PasswordHash] = @p14, [PhoneNumber] = @p15, [PhoneNumberConfirmed] = @p16, [SecurityStamp] = @p17, [Status] = @p18, [TwoFactorEnabled] = @p19, [UserName] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:38:21.5131997+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:38:21.5270497+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("8"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:38:21.5362389+07:00 0HM015MTALKUG:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@p21='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [Avatar] = @p1, [Balance] = @p2, [BirthDay] = @p3, [ConcurrencyStamp] = @p4, [DateCreated] = @p5, [DateModified] = @p6, [Email] = @p7, [EmailConfirmed] = @p8, [FullName] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [NormalizedEmail] = @p12, [NormalizedUserName] = @p13, [PasswordHash] = @p14, [PhoneNumber] = @p15, [PhoneNumberConfirmed] = @p16, [SecurityStamp] = @p17, [Status] = @p18, [TwoFactorEnabled] = @p19, [UserName] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:38:21.5435694+07:00 0HM015MTALKUG:00000003 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 3991.4498ms. (50a9e262)
+2020-05-26T11:38:21.5494888+07:00 0HM015MTALKUG:00000003 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel"'. (8a1b66c8)
+2020-05-26T11:38:21.5562040+07:00 0HM015MTALKUG:00000003 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)" in 4006.9528ms (afa2e885)
+2020-05-26T11:38:21.5706753+07:00 0HM015MTALKUG:00000003 [INF] Request finished in 4020.7807ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:21.5824331+07:00 0HM015MTALKUF:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:38:21.5915786+07:00 0HM015MTALKUF:00000009 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:21.5971339+07:00 0HM015MTALKUF:00000009 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:21.6039366+07:00 0HM015MTALKUF:00000009 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:21.6118645+07:00 0HM015MTALKUF:00000009 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:38:21.6161607+07:00 0HM015MTALKUF:00000009 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 15.2118ms. (50a9e262)
+2020-05-26T11:38:21.6215469+07:00 0HM015MTALKUF:00000009 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:21.6270915+07:00 0HM015MTALKUF:00000009 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 30.2892ms (afa2e885)
+2020-05-26T11:38:21.6353316+07:00 0HM015MTALKUF:00000009 [INF] Request finished in 49.5822ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:21.6483697+07:00 0HM015MTALKUG:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:38:21.6620572+07:00 0HM015MTALKUG:00000004 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:21.6909198+07:00 0HM015MTALKUG:00000004 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:21.6988023+07:00 0HM015MTALKUG:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:21.7121850+07:00 0HM015MTALKUG:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:38:21.7209313+07:00 0HM015MTALKUG:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:38:21.7272554+07:00 0HM015MTALKUG:00000004 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 30.2049ms. (50a9e262)
+2020-05-26T11:38:21.7320621+07:00 0HM015MTALKUG:00000004 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:21.7394443+07:00 0HM015MTALKUG:00000004 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 70.4445ms (afa2e885)
+2020-05-26T11:38:21.7556620+07:00 0HM015MTALKUG:00000004 [INF] Request finished in 96.6591ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:21.8096615+07:00 0HM015MTALKUF:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:38:21.8162950+07:00 0HM015MTALKUG:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:38:21.9599933+07:00 0HM015MTALKUF:0000000A [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:21.9841340+07:00 0HM015MTALKUG:00000005 [INF] Request finished in 16.6309ms 404  (791a596a)
+2020-05-26T11:38:21.9965698+07:00 0HM015MTALKUF:0000000A [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:22.0047597+07:00 0HM015MTALKUF:0000000A [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:22.0118227+07:00 0HM015MTALKUF:0000000A [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:38:22.0208180+07:00 0HM015MTALKUF:0000000A [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:38:22.0334348+07:00 0HM015MTALKUF:0000000A [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 24.3886ms. (50a9e262)
+2020-05-26T11:38:22.0453082+07:00 0HM015MTALKUF:0000000A [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:22.0631174+07:00 0HM015MTALKUF:0000000A [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 85.604ms (afa2e885)
+2020-05-26T11:38:22.0927427+07:00 0HM015MTALKUF:0000000A [INF] Request finished in 287.6982ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:22.1072269+07:00 0HM015MTALKUG:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:38:22.1176122+07:00 0HM015MTALKUG:00000006 [INF] Request finished in 9.7445ms 404  (791a596a)
+2020-05-26T11:38:24.1175154+07:00 0HM015MTALKUF:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/User/GetById?id=281661a5-297c-4bdc-c729-08d8012e3ff9   (ca22a1cb)
+2020-05-26T11:38:24.1214934+07:00 0HM015MTALKUF:0000000B [INF] Route matched with "{area = \"Admin\", action = \"GetById\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:24.1243057+07:00 0HM015MTALKUF:0000000B [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:24.1272266+07:00 0HM015MTALKUF:0000000B [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:24.1336884+07:00 0HM015MTALKUF:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Avatar], [e].[Balance], [e].[BirthDay], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[DateModified], [e].[Email], [e].[EmailConfirmed], [e].[FullName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[Status], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AppUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0" (0723d8ff)
+2020-05-26T11:38:24.1385144+07:00 0HM015MTALKUF:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-05-26T11:38:24.1417075+07:00 0HM015MTALKUF:0000000B [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 14.6851ms. (50a9e262)
+2020-05-26T11:38:24.1451410+07:00 0HM015MTALKUF:0000000B [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel"'. (8a1b66c8)
+2020-05-26T11:38:24.1511155+07:00 0HM015MTALKUF:0000000B [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)" in 24.172ms (afa2e885)
+2020-05-26T11:38:24.1589829+07:00 0HM015MTALKUF:0000000B [INF] Request finished in 36.5419ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:24.1647463+07:00 0HM015MTALKUG:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:38:24.1690721+07:00 0HM015MTALKUG:00000007 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:24.1722620+07:00 0HM015MTALKUG:00000007 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:24.1760136+07:00 0HM015MTALKUG:00000007 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:24.1833214+07:00 0HM015MTALKUG:00000007 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:38:24.1879260+07:00 0HM015MTALKUG:00000007 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 11.4942ms. (50a9e262)
+2020-05-26T11:38:24.1928093+07:00 0HM015MTALKUG:00000007 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:24.1970893+07:00 0HM015MTALKUG:00000007 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 24.0164ms (afa2e885)
+2020-05-26T11:38:24.2029682+07:00 0HM015MTALKUG:00000007 [INF] Request finished in 36.0504ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:26.1709888+07:00 0HM015MTALKUF:0000000C [INF] Request starting HTTP/1.1 POST http://localhost:44364/Admin/User/SaveEntity application/x-www-form-urlencoded; charset=UTF-8 193 (ca22a1cb)
+2020-05-26T11:38:26.1752180+07:00 0HM015MTALKUF:0000000C [INF] Route matched with "{area = \"Admin\", action = \"SaveEntity\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveEntity(KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:26.1793067+07:00 0HM015MTALKUF:0000000C [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:29.1842252+07:00 0HM015MTALKUF:0000000C [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:29.1997693+07:00 0HM015MTALKUF:0000000C [INF] Executed DbCommand ("9"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Avatar], [e].[Balance], [e].[BirthDay], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[DateModified], [e].[Email], [e].[EmailConfirmed], [e].[FullName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[Status], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AppUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0" (0723d8ff)
+2020-05-26T11:38:29.2058545+07:00 0HM015MTALKUF:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-05-26T11:38:29.4843160+07:00 0HM015MTALKUF:0000000C [INF] Executed DbCommand ("80"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:38:29.7004380+07:00 0HM015MTALKUF:0000000C [INF] Executed DbCommand ("205"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:38:29.7157768+07:00 0HM015MTALKUF:0000000C [INF] Executed DbCommand ("2"ms) [Parameters=["@p21='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [Avatar] = @p1, [Balance] = @p2, [BirthDay] = @p3, [ConcurrencyStamp] = @p4, [DateCreated] = @p5, [DateModified] = @p6, [Email] = @p7, [EmailConfirmed] = @p8, [FullName] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [NormalizedEmail] = @p12, [NormalizedUserName] = @p13, [PasswordHash] = @p14, [PhoneNumber] = @p15, [PhoneNumberConfirmed] = @p16, [SecurityStamp] = @p17, [Status] = @p18, [TwoFactorEnabled] = @p19, [UserName] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:38:29.7352616+07:00 0HM015MTALKUF:0000000C [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2020-05-26T11:38:29.7493423+07:00 0HM015MTALKUF:0000000C [INF] Executed DbCommand ("6"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid), @__get_Item_1='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[RoleId], [e].[UserId]
+FROM [AppUserRoles] AS [e]
+WHERE ([e].[RoleId] = @__get_Item_0) AND ([e].[UserId] = @__get_Item_1)" (0723d8ff)
+2020-05-26T11:38:29.7600948+07:00 0HM015MTALKUF:0000000C [WRN] User "281661a5-297c-4bdc-c729-08d8012e3ff9" is not in role "Staff". (ef7b5e72)
+2020-05-26T11:38:29.7686548+07:00 0HM015MTALKUF:0000000C [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:38:29.7775480+07:00 0HM015MTALKUF:0000000C [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:38:29.7857606+07:00 0HM015MTALKUF:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=["@p21='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [Avatar] = @p1, [Balance] = @p2, [BirthDay] = @p3, [ConcurrencyStamp] = @p4, [DateCreated] = @p5, [DateModified] = @p6, [Email] = @p7, [EmailConfirmed] = @p8, [FullName] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [NormalizedEmail] = @p12, [NormalizedUserName] = @p13, [PasswordHash] = @p14, [PhoneNumber] = @p15, [PhoneNumberConfirmed] = @p16, [SecurityStamp] = @p17, [Status] = @p18, [TwoFactorEnabled] = @p19, [UserName] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:38:29.7908475+07:00 0HM015MTALKUF:0000000C [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 3607.9362ms. (50a9e262)
+2020-05-26T11:38:29.7952135+07:00 0HM015MTALKUF:0000000C [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel"'. (8a1b66c8)
+2020-05-26T11:38:29.8014164+07:00 0HM015MTALKUF:0000000C [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)" in 3620.1121ms (afa2e885)
+2020-05-26T11:38:29.8085125+07:00 0HM015MTALKUF:0000000C [INF] Request finished in 3636.3369ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:29.8254584+07:00 0HM015MTALKUG:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:38:29.8376484+07:00 0HM015MTALKUG:00000008 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:29.8414287+07:00 0HM015MTALKUG:00000008 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:29.8456509+07:00 0HM015MTALKUG:00000008 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:29.8535280+07:00 0HM015MTALKUG:00000008 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:38:29.8576507+07:00 0HM015MTALKUG:00000008 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 12.4061ms. (50a9e262)
+2020-05-26T11:38:29.8613360+07:00 0HM015MTALKUG:00000008 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:29.8656931+07:00 0HM015MTALKUG:00000008 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 23.7199ms (afa2e885)
+2020-05-26T11:38:29.8722511+07:00 0HM015MTALKUG:00000008 [INF] Request finished in 45.1488ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:29.8860633+07:00 0HM015MTALKUF:0000000D [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:38:29.8937032+07:00 0HM015MTALKUF:0000000D [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:29.8974684+07:00 0HM015MTALKUF:0000000D [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:29.9116053+07:00 0HM015MTALKUF:0000000D [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:29.9203310+07:00 0HM015MTALKUF:0000000D [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:38:29.9344684+07:00 0HM015MTALKUF:0000000D [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:38:29.9416385+07:00 0HM015MTALKUF:0000000D [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 39.6551ms. (50a9e262)
+2020-05-26T11:38:29.9459049+07:00 0HM015MTALKUF:0000000D [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:29.9549997+07:00 0HM015MTALKUF:0000000D [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 52.9822ms (afa2e885)
+2020-05-26T11:38:29.9611606+07:00 0HM015MTALKUF:0000000D [INF] Request finished in 76.9895ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:29.9932303+07:00 0HM015MTALKUG:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:38:29.9959361+07:00 0HM015MTALKUF:0000000E [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:38:30.0041789+07:00 0HM015MTALKUG:00000009 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:30.0117881+07:00 0HM015MTALKUF:0000000E [INF] Request finished in 11.8653ms 404  (791a596a)
+2020-05-26T11:38:30.0146198+07:00 0HM015MTALKUG:00000009 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:30.0233726+07:00 0HM015MTALKUG:00000009 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:30.0292742+07:00 0HM015MTALKUG:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:38:30.0381155+07:00 0HM015MTALKUG:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:38:30.0426926+07:00 0HM015MTALKUG:00000009 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 23.6372ms. (50a9e262)
+2020-05-26T11:38:30.0476327+07:00 0HM015MTALKUG:00000009 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:30.0566815+07:00 0HM015MTALKUG:00000009 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 43.7006ms (afa2e885)
+2020-05-26T11:38:30.0655926+07:00 0HM015MTALKUG:00000009 [INF] Request finished in 76.4045ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:30.0826400+07:00 0HM015MTALKUF:0000000F [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:38:30.0962713+07:00 0HM015MTALKUF:0000000F [INF] Request finished in 12.6632ms 404  (791a596a)
+2020-05-26T11:38:31.6877991+07:00 0HM015MTALKUG:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/User/GetById?id=281661a5-297c-4bdc-c729-08d8012e3ff9   (ca22a1cb)
+2020-05-26T11:38:31.6918770+07:00 0HM015MTALKUG:0000000A [INF] Route matched with "{area = \"Admin\", action = \"GetById\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:31.6953331+07:00 0HM015MTALKUG:0000000A [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:31.6989163+07:00 0HM015MTALKUG:0000000A [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:31.7072834+07:00 0HM015MTALKUG:0000000A [INF] Executed DbCommand ("3"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Avatar], [e].[Balance], [e].[BirthDay], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[DateModified], [e].[Email], [e].[EmailConfirmed], [e].[FullName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[Status], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AppUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0" (0723d8ff)
+2020-05-26T11:38:31.7127047+07:00 0HM015MTALKUG:0000000A [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-05-26T11:38:31.7160161+07:00 0HM015MTALKUG:0000000A [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 17.8572ms. (50a9e262)
+2020-05-26T11:38:31.7193297+07:00 0HM015MTALKUG:0000000A [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel"'. (8a1b66c8)
+2020-05-26T11:38:31.7235081+07:00 0HM015MTALKUG:0000000A [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetById (KhoaLuanCoreApp)" in 27.7573ms (afa2e885)
+2020-05-26T11:38:31.7294242+07:00 0HM015MTALKUG:0000000A [INF] Request finished in 40.125ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:31.7353923+07:00 0HM015MTALKUF:00000010 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:38:31.7395340+07:00 0HM015MTALKUF:00000010 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:31.7426406+07:00 0HM015MTALKUF:00000010 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:31.7460908+07:00 0HM015MTALKUF:00000010 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:31.7522102+07:00 0HM015MTALKUF:00000010 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:38:31.7555686+07:00 0HM015MTALKUF:00000010 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 9.9746ms. (50a9e262)
+2020-05-26T11:38:31.7587033+07:00 0HM015MTALKUF:00000010 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:31.7621043+07:00 0HM015MTALKUF:00000010 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 19.4772ms (afa2e885)
+2020-05-26T11:38:31.7678445+07:00 0HM015MTALKUF:00000010 [INF] Request finished in 30.4394ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:36.1799143+07:00 0HM015MTALKUG:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:38:36.1855340+07:00 0HM015MTALKUG:0000000B [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:36.1888541+07:00 0HM015MTALKUG:0000000B [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:36.1936418+07:00 0HM015MTALKUG:0000000B [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:36.2000880+07:00 0HM015MTALKUG:0000000B [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:38:36.2037094+07:00 0HM015MTALKUG:0000000B [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 11.1382ms. (50a9e262)
+2020-05-26T11:38:36.2070705+07:00 0HM015MTALKUG:0000000B [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:36.2112861+07:00 0HM015MTALKUG:0000000B [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 21.672ms (afa2e885)
+2020-05-26T11:38:36.2292930+07:00 0HM015MTALKUG:0000000B [INF] Request finished in 35.1958ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:38:36.2311005+07:00 0HM015MTALKUF:00000011 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:38:36.2355939+07:00 0HM015MTALKUF:00000011 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:38:36.2386016+07:00 0HM015MTALKUF:00000011 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:38:36.2421393+07:00 0HM015MTALKUF:00000011 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:38:36.2481522+07:00 0HM015MTALKUF:00000011 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:38:36.2517062+07:00 0HM015MTALKUF:00000011 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 10.1605ms. (50a9e262)
+2020-05-26T11:38:36.2549609+07:00 0HM015MTALKUF:00000011 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:38:36.2586563+07:00 0HM015MTALKUF:00000011 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 19.4194ms (afa2e885)
+2020-05-26T11:38:36.2640496+07:00 0HM015MTALKUF:00000011 [INF] Request finished in 32.4899ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:39:04.6554430+07:00 0HM015MTALKUG:0000000C [INF] Request starting HTTP/1.1 POST http://localhost:44364/Admin/User/SaveEntity application/x-www-form-urlencoded; charset=UTF-8 125 (ca22a1cb)
+2020-05-26T11:39:04.6595572+07:00 0HM015MTALKUG:0000000C [INF] Route matched with "{area = \"Admin\", action = \"SaveEntity\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveEntity(KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:39:04.6670410+07:00 0HM015MTALKUG:0000000C [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:39:08.5020203+07:00 0HM015MTALKUG:0000000C [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:39:08.5168648+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("9"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:39:08.5622023+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("32"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:39:08.5807569+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Decimal), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = Boolean), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (DbType = DateTimeOffset), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 4000), @p19='?' (DbType = Int32), @p20='?' (DbType = Boolean), @p21='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AppUsers] ([Id], [AccessFailedCount], [Avatar], [Balance], [BirthDay], [ConcurrencyStamp], [DateCreated], [DateModified], [Email], [EmailConfirmed], [FullName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [Status], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);" (0723d8ff)
+2020-05-26T11:39:08.7193405+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:39:08.7296317+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2020-05-26T11:39:08.7480967+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("11"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid), @__get_Item_1='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[RoleId], [e].[UserId]
+FROM [AppUserRoles] AS [e]
+WHERE ([e].[RoleId] = @__get_Item_0) AND ([e].[UserId] = @__get_Item_1)" (0723d8ff)
+2020-05-26T11:39:08.7698686+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("16"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2020-05-26T11:39:08.7786214+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-05-26T11:39:08.7854635+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0" (0723d8ff)
+2020-05-26T11:39:08.7925449+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AppUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);" (0723d8ff)
+2020-05-26T11:39:08.8033503+07:00 0HM015MTALKUG:0000000C [INF] Executed DbCommand ("6"ms) [Parameters=["@p21='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Int32), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [Avatar] = @p1, [Balance] = @p2, [BirthDay] = @p3, [ConcurrencyStamp] = @p4, [DateCreated] = @p5, [DateModified] = @p6, [Email] = @p7, [EmailConfirmed] = @p8, [FullName] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [NormalizedEmail] = @p12, [NormalizedUserName] = @p13, [PasswordHash] = @p14, [PhoneNumber] = @p15, [PhoneNumberConfirmed] = @p16, [SecurityStamp] = @p17, [Status] = @p18, [TwoFactorEnabled] = @p19, [UserName] = @p20
+WHERE [Id] = @p21;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:39:08.8088690+07:00 0HM015MTALKUG:0000000C [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4138.7807ms. (50a9e262)
+2020-05-26T11:39:08.8120794+07:00 0HM015MTALKUG:0000000C [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel"'. (8a1b66c8)
+2020-05-26T11:39:08.8182566+07:00 0HM015MTALKUG:0000000C [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.SaveEntity (KhoaLuanCoreApp)" in 4152.9408ms (afa2e885)
+2020-05-26T11:39:08.8287930+07:00 0HM015MTALKUG:0000000C [INF] Request finished in 4167.7783ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:39:08.8555855+07:00 0HM015MTALKUF:00000012 [INF] Request starting HTTP/1.1 GET http://localhost:44364/Admin/Role/GetAll   (ca22a1cb)
+2020-05-26T11:39:08.8630413+07:00 0HM015MTALKUF:00000012 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Role\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:39:08.8680943+07:00 0HM015MTALKUF:00000012 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:39:08.8761502+07:00 0HM015MTALKUF:00000012 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:39:08.8832014+07:00 0HM015MTALKUF:00000012 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[Description]
+FROM [AppRoles] AS [dto]" (0723d8ff)
+2020-05-26T11:39:08.8870718+07:00 0HM015MTALKUF:00000012 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 15.4171ms. (50a9e262)
+2020-05-26T11:39:08.8913243+07:00 0HM015MTALKUF:00000012 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppRoleViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:39:08.8964215+07:00 0HM015MTALKUF:00000012 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.RoleController.GetAll (KhoaLuanCoreApp)" in 28.875ms (afa2e885)
+2020-05-26T11:39:08.9047875+07:00 0HM015MTALKUF:00000012 [INF] Request finished in 47.1476ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:39:08.9181708+07:00 0HM015MTALKUG:0000000D [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:39:08.9294971+07:00 0HM015MTALKUG:0000000D [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:39:08.9793662+07:00 0HM015MTALKUG:0000000D [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:39:08.9968685+07:00 0HM015MTALKUG:0000000D [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:39:09.0349910+07:00 0HM015MTALKUG:0000000D [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:39:09.0607616+07:00 0HM015MTALKUG:0000000D [INF] Executed DbCommand ("8"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:39:09.1173335+07:00 0HM015MTALKUG:0000000D [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 81.5142ms. (50a9e262)
+2020-05-26T11:39:09.1493307+07:00 0HM015MTALKUG:0000000D [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:39:09.1802920+07:00 0HM015MTALKUG:0000000D [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 220.0762ms (afa2e885)
+2020-05-26T11:39:09.2176691+07:00 0HM015MTALKUG:0000000D [INF] Request finished in 267.0001ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:39:09.2974326+07:00 0HM015MTALKUG:0000000E [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:39:09.3189512+07:00 0HM015MTALKUF:00000013 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:39:09.3296535+07:00 0HM015MTALKUG:0000000E [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:39:09.3423087+07:00 0HM015MTALKUF:00000013 [INF] Request finished in 25.6462ms 404  (791a596a)
+2020-05-26T11:39:09.3450598+07:00 0HM015MTALKUG:0000000E [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:39:09.3550761+07:00 0HM015MTALKUG:0000000E [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:39:09.3607033+07:00 0HM015MTALKUG:0000000E [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:39:09.3678436+07:00 0HM015MTALKUG:0000000E [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:39:09.3740700+07:00 0HM015MTALKUG:0000000E [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 22.9193ms. (50a9e262)
+2020-05-26T11:39:09.3791083+07:00 0HM015MTALKUG:0000000E [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:39:09.3849926+07:00 0HM015MTALKUG:0000000E [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 49.8021ms (afa2e885)
+2020-05-26T11:39:09.3923792+07:00 0HM015MTALKUG:0000000E [INF] Request finished in 103.707ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:39:09.4018381+07:00 0HM015MTALKUF:00000014 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:39:09.4840232+07:00 0HM015MTALKUF:00000014 [INF] Request finished in 5.0081ms 404  (791a596a)
+2020-05-26T11:39:15.0916812+07:00 0HM015MTALKUG:0000000F [INF] Request starting HTTP/1.1 POST http://localhost:44364/Admin/User/Delete application/x-www-form-urlencoded; charset=UTF-8 39 (ca22a1cb)
+2020-05-26T11:39:15.1017628+07:00 0HM015MTALKUG:0000000F [INF] Route matched with "{area = \"Admin\", action = \"Delete\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.String)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:39:15.1073447+07:00 0HM015MTALKUG:0000000F [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.Delete (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:39:15.1145628+07:00 0HM015MTALKUG:0000000F [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:39:15.1231291+07:00 0HM015MTALKUG:0000000F [INF] Executed DbCommand ("3"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Avatar], [e].[Balance], [e].[BirthDay], [e].[ConcurrencyStamp], [e].[DateCreated], [e].[DateModified], [e].[Email], [e].[EmailConfirmed], [e].[FullName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[Status], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AppUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0" (0723d8ff)
+2020-05-26T11:39:15.1675818+07:00 0HM015MTALKUG:0000000F [INF] Executed DbCommand ("13"ms) [Parameters=["@p0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [AppUsers]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2020-05-26T11:39:15.1773155+07:00 0HM015MTALKUG:0000000F [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.Delete (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 67.1412ms. (50a9e262)
+2020-05-26T11:39:15.1804502+07:00 0HM015MTALKUG:0000000F [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2020-05-26T11:39:15.1844725+07:00 0HM015MTALKUG:0000000F [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.Delete (KhoaLuanCoreApp)" in 79.5673ms (afa2e885)
+2020-05-26T11:39:15.1920698+07:00 0HM015MTALKUG:0000000F [INF] Request finished in 97.5212ms 200 text/plain; charset=utf-8 (791a596a)
+2020-05-26T11:39:15.2060722+07:00 0HM015MTALKUF:00000015 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/GetAllPaging?keyword=&page=1&pageSize=10   (ca22a1cb)
+2020-05-26T11:39:15.2117626+07:00 0HM015MTALKUF:00000015 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.String, Int32, Int32)" on controller "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController" ("KhoaLuanCoreApp"). (122b2fdf)
+2020-05-26T11:39:15.2150745+07:00 0HM015MTALKUF:00000015 [INF] Executing action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" - Validation state: Valid (dad538d7)
+2020-05-26T11:39:15.2217017+07:00 0HM015MTALKUF:00000015 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KhoaLuanCoreApp.Data.EF " (9958f5bb)
+2020-05-26T11:39:15.2270755+07:00 0HM015MTALKUF:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [a]" (0723d8ff)
+2020-05-26T11:39:15.2319480+07:00 0HM015MTALKUF:00000015 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[UserName], [x].[Avatar], CONVERT(VARCHAR(100), [x].[BirthDay]) AS [BirthDay], [x].[Email], [x].[FullName], [x].[Id], [x].[PhoneNumber], [x].[Status], [x].[DateCreated]
+FROM [AppUsers] AS [x]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2020-05-26T11:39:15.2354307+07:00 0HM015MTALKUF:00000015 [INF] Executed action method "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 16.9955ms. (50a9e262)
+2020-05-26T11:39:15.2420497+07:00 0HM015MTALKUF:00000015 [INF] Executing ObjectResult, writing value of type '"KhoaLuanCoreApp.Ultilities.Dtos.PagedResult`1[[KhoaLuanCoreApp.Application.ViewModels.System.AppUserViewModel, KhoaLuanCoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-26T11:39:15.2543407+07:00 0HM015MTALKUF:00000015 [INF] Executed action "KhoaLuanCoreApp.Areas.Admin.Controllers.UserController.GetAllPaging (KhoaLuanCoreApp)" in 30.4658ms (afa2e885)
+2020-05-26T11:39:15.2653677+07:00 0HM015MTALKUF:00000015 [INF] Request finished in 54.5018ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-26T11:39:15.2797245+07:00 0HM015MTALKUG:00000010 [INF] Request starting HTTP/1.1 GET http://localhost:44364/admin/user/null   (ca22a1cb)
+2020-05-26T11:39:15.3024596+07:00 0HM015MTALKUG:00000010 [INF] Request finished in 5.6169ms 404  (791a596a)
