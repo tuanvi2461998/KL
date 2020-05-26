@@ -4,6 +4,7 @@
         loadCategories();
         loadData();
         registerEvents();
+        registerControls();
     }
 
     function registerEvents() {
@@ -23,7 +24,7 @@
             }
         });
 
-        $("#btnCreate").on('click', function () {
+        $("#btnCreate").off('click').on('click', function () {
             resetFormMaintainance();
             initTreeDropDownCategory();
             $('#modal-add-edit').modal('show');
@@ -42,9 +43,44 @@
             deleteProduct(that);
         });
 
+        $('#btnSelectImg').on('click', function () {
+            $('#fileInputImage').click();
+        });
+
+        $("#fileInputImage").on('change', function () {
+            var fileUpload = $(this).get(0);
+            var files = fileUpload.files;
+            var data = new FormData();
+            for (var i = 0; i < files.length; i++) {
+                data.append(files[i].name, files[i]);
+            }
+            $.ajax({
+                type: "POST",
+                url: "/Admin/Upload/UploadImage",
+                contentType: false,
+                processData: false,
+                data: data,
+                success: function (path) {
+                    $('#txtImage').val(path); 
+                    khoaluan.notify('Tải ảnh thành công!', 'success');
+
+                },
+                error: function () {
+                    khoaluan.notify('Có lỗi khi tải ảnh!', 'error');
+                }
+            });
+        });
+
         $('#btnSave').on('click', function (e) {
             saveProduct(e);
         });
+    }
+    function registerControls() {
+
+        CKEDITOR.replace('txtContent', {});
+        //Fix: cannot click on element ck in modal
+     
+
     }
     function saveProduct(e) {
         if ($('#frmMaintainance').valid()) {
@@ -60,12 +96,12 @@
             var originalPrice = $('#txtOriginalPriceM').val();
             var promotionPrice = $('#txtPromotionPriceM').val();
 
-            //var image = $('#txtImage').val();
+            var image = $('#txtImage').val();
 
             var seoMetaDescription = $('#txtMetaDescriptionM').val();
             var seoAlias = $('#txtSeoAliasM').val();
 
-           // var content = CKEDITOR.instances.txtContent.getData();
+            var content = CKEDITOR.instances.txtContent.getData();
             var status = $('#ckStatusM').prop('checked') == true ? 1 : 0;
             var hot = $('#ckHotM').prop('checked');
             var showHome = $('#ckShowHomeM').prop('checked');
@@ -77,12 +113,12 @@
                     Id: id,
                     Name: name,
                     CategoryId: categoryId,
-                    Image: '',
+                    Image: image,
                     Price: price,
                     OriginalPrice: originalPrice,
                     PromotionPrice: promotionPrice,
                     Description: description,
-                    Content: '',
+                    Content: content,
                     HomeFlag: showHome,
                     HotFlag: hot,
                     Unit: unit,
@@ -156,13 +192,11 @@
                 $('#txtOriginalPriceM').val(data.OriginalPrice);
                 $('#txtPromotionPriceM').val(data.PromotionPrice);
 
-                //$('#txtImage').val(data.Image);
+                $('#txtImage').val(data.Image);
 
-               
                 $('#txtMetaDescriptionM').val(data.SeoDescription);
                 $('#txtSeoAliasM').val(data.SeoAlias);
-
-                 //CKEDITOR.instances.txtContent.setData(data.Content);
+                CKEDITOR.instances.txtContent.setData(data.Content);
                 $('#ckStatusM').prop('checked', data.Status == 1);
                 $('#ckHotM').prop('checked', data.HotFlag);
                 $('#ckShowHomeM').prop('checked', data.HomeFlag);
@@ -282,10 +316,10 @@
         $('#txtOriginalPriceM').val('');
         $('#txtPromotionPriceM').val('');
 
-       // $('#txtImage').val('');
+        $('#txtImage').val('');
         $('#txtDescription').val('');
         $('#txtSeoAliasM').val('');
-        //CKEDITOR.instances.txtContents.setData('');
+        CKEDITOR.instances.txtContents.setData('');
         $('#ckStatusM').prop('checked', true);
         $('#ckHotM').prop('checked', false);
         $('#ckShowHomeM').prop('checked', false);

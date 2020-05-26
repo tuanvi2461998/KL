@@ -39,7 +39,7 @@
 
                     $('#txtDescM').val(data.Description);
 
-                    $('#txtImageM').val(data.ThumbnailImage);
+                    $('#txtImage').val(data.Image);
 
                     $('#txtSeoDescriptionM').val(data.SeoDescription);
                     $('#txtSeoAliasM').val(data.SeoAlias);
@@ -83,7 +83,32 @@
                 });
             });
         });
+        $('#btnSelectImg').on('click', function () {
+            $('#fileInputImage').click();
+        });
+        $("#fileInputImage").on('change', function () {
+            var fileUpload = $(this).get(0);
+            var files = fileUpload.files;
+            var data = new FormData();
+            for (var i = 0; i < files.length; i++) {
+                data.append(files[i].name, files[i]);
+            }
+            $.ajax({
+                type: "POST",
+                url: "/Admin/Upload/UploadImage",
+                contentType: false,
+                processData: false,
+                data: data,
+                success: function (path) {
+                    $('#txtImage').val(path);
+                    khoaluan.notify('Tải ảnh thành công!', 'success');
 
+                },
+                error: function () {
+                    khoaluan.notify('Có lỗi khi tải ảnh!', 'error');
+                }
+            });
+        });
         $('#btnSave').on('click', function (e) {
             if ($('#frmMaintainance').valid()) {
                 e.preventDefault();
@@ -92,7 +117,7 @@
                 var parentId = $('#ddlCategoryIdM').combotree('getValue');
                 var description = $('#txtDescM').val();
 
-                var image = $('#txtImageM').val();
+                var image = $('#txtImage').val();
                 var order = parseInt($('#txtOrderM').val());
                 var homeOrder = $('#txtHomeOrderM').val();
                 
