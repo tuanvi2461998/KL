@@ -23,6 +23,8 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
 using KhoaLuanCoreApp.Helpers;
 using KhoaLuanCoreApp.Infrastructure.Interfaces;
+using Microsoft.AspNetCore.Authorization;
+using KhoaLuanCoreApp.Authorization;
 
 namespace KhoaLuanCoreApp
 {
@@ -106,6 +108,8 @@ namespace KhoaLuanCoreApp
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IRoleService, RoleService>();
+
+            services.AddTransient<IAuthorizationHandler, BaseResourceAuthorizationHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

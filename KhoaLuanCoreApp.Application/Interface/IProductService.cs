@@ -19,5 +19,6 @@ namespace KhoaLuanCoreApp.Application.Interface
 
         ProductViewModel GetById(int id);
         void Save();
+        void ImportExcel(string filePath, int categoryId);
     }
 }

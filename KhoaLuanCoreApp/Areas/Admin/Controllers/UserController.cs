@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using KhoaLuanCoreApp.Application.Interface;
 using KhoaLuanCoreApp.Application.ViewModels.System;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
@@ -12,10 +13,12 @@ namespace KhoaLuanCoreApp.Areas.Admin.Controllers
     public class UserController : BaseController
     {
         private readonly IUserService _userService;
-
-        public UserController(IUserService userService)
+        private readonly IAuthorizationService _authorizationService;
+        public UserController(IUserService userService,
+           IAuthorizationService authorizationService)
         {
             _userService = userService;
+            _authorizationService = authorizationService;
         }
 
         public IActionResult Index()
