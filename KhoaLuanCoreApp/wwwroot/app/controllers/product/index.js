@@ -74,6 +74,7 @@
         $('#btnSave').on('click', function (e) {
             saveProduct(e);
         });
+
         $('#btn-import').on('click', function () {
             initTreeDropDownCategory();
             $('#modal-import-excel').modal('show');
@@ -104,6 +105,24 @@
                 }
             });
             return false;
+        });
+
+        $('#btn-export').on('click', function () {
+            $.ajax({
+                type: "POST",
+                url: "/Admin/Product/ExportExcel",
+                beforeSend: function () {
+                    khoaluan.startLoading();
+                },
+                success: function (response) {
+                    window.location.href = response;
+                    khoaluan.stopLoading();
+                },
+                error: function () {
+                    khoaluan.notify('Có lỗi xảy ra', 'error');
+                    khoaluan.stopLoading();
+                }
+            });
         });
     }
     function registerControls() {
@@ -281,7 +300,7 @@
             url: '/admin/product/GetAllCategories',
             dataType: 'json',
             success: function (response) {
-                var render = "<option value=''>--Select category--</option>";
+                var render = "<option value=''>--Chọn loại--</option>";
                 $.each(response, function (i, item) {
                     render += "<option value='" + item.Id + "'>" + item.Name + "</option>"
                 });

@@ -93,7 +93,10 @@ namespace KhoaLuanCoreApp.Data.EF.Repositories
                     {
                         changedOrAddedItem.DateCreated = DateTime.Now;
                     }
-                    changedOrAddedItem.DateModified = DateTime.Now;
+                    else
+                    {
+                        changedOrAddedItem.DateModified = DateTime.Now;
+                    }
                 }
             }
             return base.SaveChanges();
