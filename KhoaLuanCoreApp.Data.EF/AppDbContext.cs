@@ -89,13 +89,14 @@ namespace KhoaLuanCoreApp.Data.EF.Repositories
                 var changedOrAddedItem = item.Entity as IDateTracking;
                 if (changedOrAddedItem != null)
                 {
+                    if (item.State == EntityState.Modified)
+                    {
+                        changedOrAddedItem.DateModified = DateTime.Now;
+                    }
+
                     if (item.State == EntityState.Added)
                     {
                         changedOrAddedItem.DateCreated = DateTime.Now;
-                    }
-                    else
-                    {
-                        changedOrAddedItem.DateModified = DateTime.Now;
                     }
                 }
             }

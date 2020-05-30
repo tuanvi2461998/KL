@@ -19,13 +19,18 @@ namespace KhoaLuanCoreApp.Application.Implementation
     public class ProductService : IProductService
     {
         IProductRepository _productRepository;
-
+        IProductQuantityRepository _productQuantityRepository;
+        IProductImageRepository _productImageRepository;
         private IUnitOfWork _unitOfWork;
         public ProductService(IProductRepository productRepository,
-            IUnitOfWork unitOfWork)
+             IProductQuantityRepository productQuantityRepository,
+        IProductImageRepository productImageRepository,
+        IUnitOfWork unitOfWork)
         {
             _productRepository = productRepository;
             _unitOfWork = unitOfWork;
+            _productImageRepository = productImageRepository;
+            _productQuantityRepository = productQuantityRepository;
         }
 
         public ProductViewModel Add(ProductViewModel productVm)
@@ -128,6 +133,47 @@ namespace KhoaLuanCoreApp.Application.Implementation
         {
             var product = Mapper.Map<ProductViewModel, Product>(productVm);
             _productRepository.Update(product);
+        }
+        public List<ProductQuantityViewModel> GetQuantities(int productId)
+        {
+            return _productQuantityRepository.FindAll(x => x.ProductId == productId).ProjectTo<ProductQuantityViewModel>().ToList();
+        }
+
+
+        public List<ProductImageViewModel> GetImages(int productId)
+        {
+            return _productImageRepository.FindAll(x => x.ProductId == productId)
+                .ProjectTo<ProductImageViewModel>().ToList();
+        }
+
+        public void AddImages(int productId, string[] images)
+        {
+            _productImageRepository.RemoveMultiple(_productImageRepository.FindAll(x => x.ProductId == productId).ToList());
+            foreach (var image in images)
+            {
+                _productImageRepository.Add(new ProductImage()
+                {
+                    Path = image,
+                    ProductId = productId,
+                    Caption = string.Empty
+                });
+            }
+
+        }
+
+        public void AddQuantity(int productId, List<ProductQuantityViewModel> quantities)
+        {
+            _productQuantityRepository.RemoveMultiple(_productQuantityRepository.FindAll(x => x.ProductId == productId).ToList());
+            foreach (var quantity in quantities)
+            {
+                _productQuantityRepository.Add(new ProductQuantity()
+                {
+                    ProductId = productId,
+                    ColorId = quantity.ColorId,
+                    SizeId = quantity.SizeId,
+                    Quantity = quantity.Quantity
+                });
+            }
         }
     }
 }

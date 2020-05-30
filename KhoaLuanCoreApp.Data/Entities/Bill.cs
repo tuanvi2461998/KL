@@ -66,7 +66,10 @@ namespace KhoaLuanCoreApp.Data.Entities
 
         public BillStatus BillStatus { get; set; } //Sử dụng các lớp dùng chung enum
 
+
         public DateTime DateCreated { get; set; }
+
+   
         public DateTime DateModified { get; set; }
 
         [DefaultValue(Status.Active)]   //Giá trị mặc định là hoạt động
