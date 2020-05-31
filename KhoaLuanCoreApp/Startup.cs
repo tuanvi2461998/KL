@@ -108,6 +108,7 @@ namespace KhoaLuanCoreApp
             services.AddTransient<ISizeRepository, SizeRepository>();
             services.AddTransient<IProductQuantityRepository, ProductQuantityRepository>();
             services.AddTransient<IProductImageRepository, ProductImageRepository>();
+            services.AddTransient<IBlogRepository, BlogRepository>();
             //Services
             services.AddTransient<IProductCategoryService, ProductCategoryService>();
             services.AddTransient<IFunctionService, FunctionService>();
@@ -115,6 +116,7 @@ namespace KhoaLuanCoreApp
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IRoleService, RoleService>();
             services.AddTransient<IBillService, BillService>();
+            services.AddTransient<IBlogService, BlogService>();
 
             services.AddTransient<IAuthorizationHandler, BaseResourceAuthorizationHandler>();
         }

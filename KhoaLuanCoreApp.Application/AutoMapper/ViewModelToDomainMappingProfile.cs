@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using KhoaLuanCoreApp.Application.ViewModels.Blog;
 using KhoaLuanCoreApp.Application.ViewModels.Product;
 using KhoaLuanCoreApp.Application.ViewModels.System;
 using KhoaLuanCoreApp.Data.Entities;
@@ -37,6 +38,12 @@ namespace KhoaLuanCoreApp.Application.AutoMapper
             CreateMap<BillDetailViewModel, BillDetail>()
               .ConstructUsing(c => new BillDetail(c.Id, c.BillId, c.ProductId,
               c.Quantity, c.Price, c.ColorId, c.SizeId));
+            //
+
+            CreateMap<BlogViewModel, Blog>()
+               .ConstructUsing(c => new Blog(c.Name, c.Image, c.Description, c.Content, c.HomeFlag, c.HotFlag,
+                c.Status, c.SeoAlias, c.SeoDescription
+               ));
         }
     }
 }

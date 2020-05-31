@@ -17,7 +17,7 @@ namespace KhoaLuanCoreApp.Data.Entities
         }
         //
         public Blog(string name, string image, string description, string content, bool? homeFlag,
-           bool? hotFlag, int viewCount,  Status status, string seoAlias, string seoDescription)
+           bool? hotFlag,  Status status, string seoAlias, string seoDescription)
         {
             Name = name;
             Image = image;
@@ -25,7 +25,6 @@ namespace KhoaLuanCoreApp.Data.Entities
             Content = content;
             HomeFlag = homeFlag;
             HotFlag = hotFlag;
-            ViewCount = viewCount;
             Status = status;
             SeoAlias = seoAlias;
             SeoDescription = seoDescription;
@@ -33,7 +32,7 @@ namespace KhoaLuanCoreApp.Data.Entities
 
         //
         public Blog(int id, string name, string image, string description, string content, bool? homeFlag,
-           bool? hotFlag, int viewCount, Status status, string seoAlias, string seoDescription)
+           bool? hotFlag,Status status, string seoAlias, string seoDescription)
         {
             Id = id;
             Name = name;
@@ -42,7 +41,6 @@ namespace KhoaLuanCoreApp.Data.Entities
             Content = content;
             HomeFlag = homeFlag;
             HotFlag = hotFlag;
-            ViewCount = viewCount;
             Status = status;
             SeoAlias = seoAlias;
             SeoDescription = seoDescription;

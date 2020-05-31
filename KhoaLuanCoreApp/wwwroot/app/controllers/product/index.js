@@ -374,7 +374,7 @@
         $('#txtImage').val('');
         $('#txtDescription').val('');
         $('#txtSeoAliasM').val('');
-        CKEDITOR.instances.txtContents.setData('');
+        CKEDITOR.instances.txtContent.setData('');
         $('#ckStatusM').prop('checked', true);
         $('#ckHotM').prop('checked', false);
         $('#ckShowHomeM').prop('checked', false);

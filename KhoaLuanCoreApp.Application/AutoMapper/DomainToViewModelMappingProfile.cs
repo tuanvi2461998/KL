@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using KhoaLuanCoreApp.Application.ViewModels.Blog;
 using KhoaLuanCoreApp.Application.ViewModels.Product;
 using KhoaLuanCoreApp.Application.ViewModels.System;
 using KhoaLuanCoreApp.Data.Entities;
@@ -23,6 +24,7 @@ namespace KhoaLuanCoreApp.Application.AutoMapper
             CreateMap<Size, SizeViewModel>();
             CreateMap<ProductQuantity, ProductQuantityViewModel>().MaxDepth(2);
             CreateMap<ProductImage, ProductImageViewModel>().MaxDepth(2);
+            CreateMap<Blog, BlogViewModel>().MaxDepth(2);
         }
     }
 }

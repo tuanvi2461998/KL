@@ -15,8 +15,4 @@
     <PackageReference Include="EPPlus.Core" Version="1.5.4" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="ViewModels\Blog\" />
-  </ItemGroup>
-
 </Project>
