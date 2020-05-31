@@ -10,7 +10,7 @@ using KhoaLuanCoreApp.Extensions;
 
 namespace KhoaLuanCoreApp.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class HomeController : Controller
     {
         public IActionResult Index()

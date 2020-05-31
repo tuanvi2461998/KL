@@ -27,6 +27,13 @@
             }
 
         });
+        $('#txtPassword').on('keypress', function (e) {
+            if (e.which === 13) {
+                var user = $('#txtUserName').val();
+                var password = $('#txtPassword').val();
+                login(user, password);
+            }
+        });
     }
 
     var login = function (user, pass) {

@@ -21,7 +21,9 @@
             resetFormMaintainance();
             $('#modal-add-edit').modal('show');
         });
-
+        $('#btnSearch').on('click', function () {
+            loadData();
+        });
 
         $('body').on('click', '.btn-edit', function (e) {
             e.preventDefault();
@@ -151,7 +153,7 @@
                 success: function (response) {
                     khoaluan.notify('Xóa thành công', 'success');
                     khoaluan.stopLoading();
-                    loadData();
+                    loadData(true);
                 },
                 error: function (status) {
                     khoaluan.notify('Has an error in delete progress', 'error');
@@ -223,12 +225,12 @@
 
         $('#hidIdM').val(0);
         $('#txtNameM').val('');
-        $('#txtContentM').val('');
+        $('#txtContent').val('');
         $('#txtDescM').val('');
 
         $('#txtHomeOrderM').val('');
-        $('#txtImageM').val('');
-        $('#txtDescriptionM').val('');
+        $('#txtImage').val('');
+        $('#txtMetaDescriptionM').val('');
         $('#txtSeoAliasM').val('');
 
         $('#ckStatusM').prop('checked', true);
